@@ -1,0 +1,29 @@
+Command line:
+   didact_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50144
+
+Fri Jan 04 12:21:03 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5331.39 Meg
+
+ Total Signals          : 282
+ Total Nets             : 323
+ Total Signal Drivers   : 182
+ Total Blocks           : 27
+ Total Primitive Blocks : 24
+ Total Processes        : 109
+ Total Traceable Variables  : 162
+ Total Scalar Nets and Variables : 5158
+Total Line Count : 922
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5174.1 Meg
+
+Fri Jan 04 12:29:25 2019
+

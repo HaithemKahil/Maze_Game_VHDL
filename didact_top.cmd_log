@@ -1,0 +1,706 @@
+xst -intstyle ise -ifn "E:/SEMB_2018_2019/didact_top.xst" -ofn "E:/SEMB_2018_2019/didact_top.syr" 
+xst -intstyle ise -ifn "E:/SEMB_2018_2019/didact_top.xst" -ofn "E:/SEMB_2018_2019/didact_top.syr" 
+xst -intstyle ise -ifn "E:/SEMB_2018_2019/didact_top.xst" -ofn "E:/SEMB_2018_2019/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "E:/SEMB_2018_2019/didact_top.xst" -ofn "E:/SEMB_2018_2019/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/Snow/Downloads/vga_driver/vga_driver.ucf -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -uc vga_driver.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -uc vga_driver.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+netgen -intstyle ise -ar Structure -tm didact_top -w -dir netgen/synthesis -ofmt vhdl -sim didact_top.ngc didact_top_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.xst" -ofn "C:/Users/Snow/Downloads/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm didact_top -w -dir netgen/translate -ofmt vhdl -sim didact_top.ngd didact_top_translate.vhd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+xst -intstyle ise -ifn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.xst" -ofn "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p xc6slx16-csg324-3 didact_top.ngc didact_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o didact_top_map.ncd didact_top.ngd didact_top.pcf 
+par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd didact_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml didact_top.twx didact_top.ncd -o didact_top.twr didact_top.pcf -ucf didact_top.ucf 
+bitgen -intstyle ise -f didact_top.ut didact_top.ncd 

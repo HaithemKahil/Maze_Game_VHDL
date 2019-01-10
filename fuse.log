@@ -1,0 +1,43 @@
+Running: F:\Programs\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top_isim_beh.exe -prj F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top_beh.prj work.didact_top 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/ipcore_dir/dcm1.vhd" into library work
+Parsing VHDL file "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/msa_hdl.vhd" into library work
+Parsing VHDL file "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/encodeurP.vhd" into library work
+Parsing VHDL file "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/diviseur_clk.vhd" into library work
+Parsing VHDL file "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/debounce_hdl.vhd" into library work
+Parsing VHDL file "F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity debounce_hdl [debounce_hdl_default]
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture xilinx of entity dcm1 [dcm1_default]
+Compiling architecture behavioral of entity diviseur_clk [diviseur_clk_default]
+Compiling architecture behavioral of entity msa_hdl [msa_hdl_default]
+Compiling architecture comportementale of entity encodeurP [\encodeurP(2)\]
+Compiling architecture behavioral of entity didact_top
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Le chemin d accès spécifié est introuvable, "isim\didact_top_isim_beh.exe.sim\libPortability.dll".
+Compiled 35 VHDL Units
+Built simulation executable F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top_isim_beh.exe
+Fuse Memory Usage: 61240 KB
+Fuse CPU Usage: 905 ms
