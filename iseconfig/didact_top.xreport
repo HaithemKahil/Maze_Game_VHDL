@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-01-10T12:17:09</DateModified>
+  <DateModified>2019-01-12T00:25:45</DateModified>
   <ModuleName>didact_top</ModuleName>
-  <SummaryTimeStamp>2019-01-04T23:52:33</SummaryTimeStamp>
-  <SavedFilePath>F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/iseconfig/didact_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/ProjectsDirectory/Embedded_Systems/Detecteurquence\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2019-01-10T16:27:20</SummaryTimeStamp>
+  <SavedFilePath>/home/omega-coder/Projects/Maze_Game_VHDL/iseconfig/didact_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/omega-coder/Projects/Maze_Game_VHDL/</ImplementationReportsDirectory>
   <DateInitialized>2018-12-17T04:03:26</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
