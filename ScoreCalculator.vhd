@@ -37,7 +37,7 @@ entity ScoreDisplayModule is
                   I_CLK : in std_logic;
                 DISP_EN : out std_logic_vector(3 downto 0);
                SEGMENTS : out std_logic_vector(7 downto 0));
-end ScoreCalculator;
+end ScoreDisplayModule;
 
 architecture Behavioral of ScoreDisplayModule is
 	component bin_to_bcd_convertor

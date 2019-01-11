@@ -45,6 +45,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 							tmp_score <= tmp_score+1;
 						else
 							etatsuiv <= a;
+							tmp_score<="00000000";
 						end if;
 					when b =>
 						if(gs = '0')then
@@ -61,6 +62,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= c;
@@ -81,6 +83,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= e;
@@ -101,6 +104,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= g;
@@ -121,6 +125,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= i;
@@ -142,6 +147,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= k;
@@ -162,6 +168,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= m;
@@ -183,6 +190,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= o;
@@ -206,6 +214,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= q;
@@ -226,6 +235,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= s;
@@ -246,6 +256,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 								tmp_score <= tmp_score+1;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= u;
@@ -263,16 +274,17 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 						if(gs = '1') then
 							if(b1 = '0' and b0 = '0') then
 								etatsuiv <= x;
-								tmp_score <= tmp_score+1;
+								tmp_score <= tmp_score+10;
 							else
 								etatsuiv <= a;
+								tmp_score<="00000000";
 							end if;
 						else
 							etatsuiv <= w;
 						end if;
 					when x =>
 						etatsuiv <= x;
-					when others => etatsuiv <= a;
+					when others => etatsuiv <= a;tmp_score<="00000000";
 				end case;
 			end if;
 end process;

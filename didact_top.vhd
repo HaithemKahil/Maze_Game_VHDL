@@ -50,20 +50,22 @@ end component;
 
 Component msa_hdl_2 is
 	 Port ( clkin : in STD_LOGIC;
-	 rst : in STD_LOGIC;
-	 b0 : in STD_LOGIC;
-	 b1 : in STD_LOGIC;
-	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+				 rst : in STD_LOGIC;
+				 b0 : in STD_LOGIC;
+				 b1 : in STD_LOGIC;
+				 gs : in STD_LOGIC;
+				 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 Component msa_hdl_3 is
 	 Port ( clkin : in STD_LOGIC;
-	 rst : in STD_LOGIC;
-	 b0 : in STD_LOGIC;
-	 b1 : in STD_LOGIC;
-	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+		 rst : in STD_LOGIC;
+		 b0 : in STD_LOGIC;
+		 b1 : in STD_LOGIC;
+		 gs : in STD_LOGIC;
+		 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 Component msa_hdl_4 is
@@ -72,7 +74,8 @@ Component msa_hdl_4 is
 	 b0 : in STD_LOGIC;
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+	 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 Component msa_hdl_5 is
@@ -81,7 +84,8 @@ Component msa_hdl_5 is
 	 b0 : in STD_LOGIC;
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+	 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 Component msa_hdl_6 is
@@ -90,7 +94,8 @@ Component msa_hdl_6 is
 	 b0 : in STD_LOGIC;
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+	 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 Component msa_hdl_7 is
@@ -99,7 +104,8 @@ Component msa_hdl_7 is
 	 b0 : in STD_LOGIC;
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+	 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 Component msa_hdl_8 is
@@ -108,7 +114,8 @@ Component msa_hdl_8 is
 	 b0 : in STD_LOGIC;
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+	 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 Component msa_hdl_9 is
@@ -117,7 +124,8 @@ Component msa_hdl_9 is
 	 b0 : in STD_LOGIC;
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+	 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 
@@ -127,7 +135,8 @@ Component msa_hdl_10 is
 	 b0 : in STD_LOGIC;
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
-	 enable_del : out STD_LOGIC);
+	 enable_del : out STD_LOGIC;
+		score : out std_logic_vector(7 downto 0));
 end Component;
 
 
@@ -177,12 +186,15 @@ signal Niveau : integer := 0 ;
 signal first_time : integer := 1 ;
 signal after_play : std_logic := '0' ;
 signal clk25 : std_logic := '0';
-signal tmp_score:std_logic_vector (7 downto 0) := "00000000" ;
-
+signal total_score:std_logic_vector (7 downto 0) := "00000000" ;
+signal score_n1,score_n2,score_n3,score_n4,score_n5,score_n6,score_n7,score_n8,score_n9,score_n10:std_logic_vector (7 downto 0) := "00000000" ;
 begin
   A<="1111111111111111111111111100000011011111110111111101111100011111";    
-  
-
+		
+		process(total_score)
+			begin
+				total_score <= score_n1+score_n2+score_n3+score_n4+score_n5+score_n6+score_n7+score_n8+score_n9+score_n10;
+			end process;
 		inst1_debounce: debounce_hdl port map(
 		sig_in => bouton1,
 		 sig_out => debout(0),
@@ -220,78 +232,88 @@ begin
 		);
 		
 		Inst_msa_hdl_Niveau1: msa_hdl port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(0),
-		score =>tmp_score
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(0),
+			score =>score_n1
 		);
 		
 		Inst_msa_hdl_Niveau2: msa_hdl_2 port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(1)
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(1),
+			score =>score_n2
 		);
 		
 		
 		
 		Inst_msa_hdl_Niveau3: msa_hdl_3 port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(2)
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(2),
+			score =>score_n3
+
 		);
 		
 		Inst_msa_hdl_Niveau4: msa_hdl_4 port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(3)
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(3),
+			score =>score_n4
+
 		);
 		
 		Inst_msa_hdl_Niveau5: msa_hdl_5 port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(4)
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(4),
+			score =>score_n5
 		);
 		
 		Inst_msa_hdl_Niveau6: msa_hdl_6 port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(9)
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(9),
+			score =>score_n6
 		);
 		
 		Inst_msa_hdl_Niveau7: msa_hdl_7 port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(5)
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(5),
+			score =>score_n7
+
 		);
 		
 		Inst_msa_hdl_Niveau8: msa_hdl_8 port map(
-		clkin => clk_dcm1,
-		rst => rst,
-		b0 => b(0),
-		b1 => b(1),
-		gs => gs,
-		enable_del => enable_del(7)
+			clkin => clk_dcm1,
+			rst => rst,
+			b0 => b(0),
+			b1 => b(1),
+			gs => gs,
+			enable_del => enable_del(7),
+			score =>score_n8
 		);
 		
 		
@@ -301,7 +323,8 @@ begin
 			b0 => b(0),
 			b1 => b(1),
 			gs => gs,
-			enable_del => enable_del(6)
+			enable_del => enable_del(6),
+			score =>score_n9
 		);
 		
 		
@@ -311,7 +334,8 @@ begin
 			b0 => b(0),
 			b1 => b(1),
 			gs => gs,
-			enable_del => enable_del(8)
+			enable_del => enable_del(8),
+			score =>score_n10
 		);
 		
 		-- Description de l’encodeur
@@ -322,7 +346,7 @@ begin
 		);
 		
 		score_display:ScoreDisplayModule port map(
-						SCORE_VAL =>tmp_score, 
+						SCORE_VAL =>total_score, 
 						VALID => '1',
                   I_CLK => clk2khz,
 						DISP_EN =>DISP_EN,
@@ -350,7 +374,6 @@ begin
 				when 2 =>
 				   A<="1111011111110111111101111110011111101111110011111101111100011111";    
 				when 3 =>
-				
 				   A<="1111111111111111111111111111000011110111111101110011011110001111";    
 				when 4 =>
 				   A<="0111111100000111111101111111011111110000111111111111111111111111";    
