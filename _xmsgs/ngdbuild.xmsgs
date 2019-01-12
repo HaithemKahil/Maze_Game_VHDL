@@ -9,6 +9,10 @@
 <arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Inst_dcm1_clkfx = PERIOD &quot;Inst_dcm1_clkfx&quot; TS_clkin / 0.16 HIGH 50%&gt;</arg>
 </msg>
 
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clkin</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clkin</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">Inst_dcm1/dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Inst_dcm1_clk0 = PERIOD &quot;Inst_dcm1_clk0&quot; TS_clkin HIGH 50%&gt;</arg>
+</msg>
+
 <msg type="info" file="NgdBuild" num="1222" delta="old" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">Inst_dcm1/dcm_sp_inst</arg> to <arg fmt="%s" index="4">10.000000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC TS_clkin = PERIOD &quot;clkin&quot; 10 ns HIGH 50 %;&gt; [didact_top.ucf(3)]</arg>).
 </msg>
 

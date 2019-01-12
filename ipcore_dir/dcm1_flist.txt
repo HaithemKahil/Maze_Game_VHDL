@@ -1,4 +1,5 @@
 # Output products list for <dcm1>
+_xmsgs\pn_parser.xmsgs
 dcm1.asy
 dcm1.gise
 dcm1.sym

@@ -1,12 +1,11 @@
-Release 14.7 ngdbuild P.20131013 (nt64)
+Release 14.7 ngdbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: F:\Programs\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
--intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p
 xc6slx16-csg324-3 didact_top.ngc didact_top.ngd
 
-Reading NGO file
-"F:/ProjectsDirectory/Embedded_Systems/Detecteurquence/didact_top.ngc" ...
+Reading NGO file "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -19,6 +18,13 @@ INFO:ConstraintSystem:178 - TNM 'clkin', used in period specification
    DCM_SP output(s): 
    CLKFX: <TIMESPEC TS_Inst_dcm1_clkfx = PERIOD "Inst_dcm1_clkfx" TS_clkin /
    0.16 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clkin', used in period specification
+   'TS_clkin', was traced into DCM_SP instance Inst_dcm1/dcm_sp_inst. The
+   following new TNM groups and period specifications were generated at the
+   DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_Inst_dcm1_clk0 = PERIOD "Inst_dcm1_clk0" TS_clkin HIGH
+   50%>
 
 Done...
 
@@ -38,7 +44,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4419360 kilobytes
+Total memory usage is 403416 kilobytes
 
 Writing NGD file "didact_top.ngd" ...
 Total REAL time to NGDBUILD completion:  3 sec

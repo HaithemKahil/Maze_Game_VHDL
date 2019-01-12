@@ -5,22 +5,886 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\didact_top.vhd" Line 183: Assignment to <arg fmt="%s" index="1">a</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 274: Actual for formal port <arg fmt="%s" index="1">sig_in</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="439" delta="new" >"F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\didact_top.vhd" Line 138: Formal port <arg fmt="%s" index="1">clk2hz</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">clk2hz</arg> of mode <arg fmt="%s" index="4">buffer</arg>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 279: Actual for formal port <arg fmt="%s" index="1">sig_in</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="439" delta="new" >"F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\didact_top.vhd" Line 139: Formal port <arg fmt="%s" index="1">clk16hz</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">clk16hz</arg> of mode <arg fmt="%s" index="4">buffer</arg>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 284: Actual for formal port <arg fmt="%s" index="1">sig_in</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="439" delta="new" >"F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\didact_top.vhd" Line 140: Formal port <arg fmt="%s" index="1">clk2khz</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">clk2khz</arg> of mode <arg fmt="%s" index="4">buffer</arg>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 290: Actual for formal port <arg fmt="%s" index="1">sig_in</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="new" >"F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\msa_hdl.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 234: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">win</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\didact_top.vhd" Line 333: Assignment to <arg fmt="%s" index="1">a</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 235: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">after_play</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 241: <arg fmt="%s" index="1">score_n1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 99: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 101: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 103: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 105: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 107: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 109: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 111: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 113: <arg fmt="%s" index="1">q_del</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 142: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 143: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 146: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 147: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 155: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 156: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 159: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 160: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 168: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 169: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 172: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 173: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 181: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 182: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 185: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 186: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 194: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 195: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 198: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 199: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 207: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 208: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 211: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 212: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 220: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 221: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 224: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 225: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 233: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 234: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 237: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 238: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 246: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 247: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 250: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 251: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 259: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 260: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 263: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 264: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 272: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 273: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 276: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 277: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 285: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 286: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 289: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 290: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 298: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 299: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 302: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 303: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 311: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 312: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 315: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 316: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 324: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 325: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 328: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 329: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 337: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 338: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 341: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 342: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 350: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 351: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 354: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 355: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 363: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 364: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 367: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 368: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 377: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 378: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 381: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 382: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 391: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 392: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 395: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 396: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 405: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 406: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 409: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 410: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 419: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 420: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 423: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 424: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 433: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 434: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 437: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 438: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 447: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 448: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 451: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 452: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 461: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 462: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 465: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 466: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 475: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 476: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 479: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 480: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 488: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 489: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 492: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 493: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 501: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 502: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 505: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 506: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 514: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 515: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 518: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 519: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 527: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 528: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 531: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 532: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 540: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 541: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 544: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 545: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 553: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 554: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 557: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 558: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 566: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 567: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 570: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 571: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 579: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 580: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 583: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 584: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 592: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 593: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 596: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 597: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 605: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 606: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 609: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 610: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 618: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 619: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 622: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 623: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 631: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 632: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 635: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 636: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 644: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 645: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 648: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 649: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 657: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 658: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 661: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 662: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 670: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 671: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 674: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 675: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 684: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 685: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 688: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 689: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 697: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 698: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 701: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 702: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 710: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 711: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 714: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 715: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 723: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 724: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 727: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 728: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 736: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 737: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 740: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 741: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 749: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 750: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 753: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 754: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 762: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 763: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 766: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 767: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 775: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 776: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 779: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 780: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 788: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 789: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 792: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 793: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 801: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 802: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 805: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 806: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 814: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 815: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 818: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 819: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 827: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 828: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 831: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 832: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 840: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 841: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 844: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 845: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 853: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 854: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 857: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 858: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 866: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 867: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 870: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 871: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 879: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 880: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 883: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 884: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 892: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 893: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 896: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 897: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 905: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 906: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 909: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 910: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 918: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 919: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 922: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 923: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 931: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 932: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 935: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 936: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 944: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 945: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 948: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 949: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 957: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 958: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 961: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 962: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 970: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 971: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 974: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 975: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 983: <arg fmt="%s" index="1">h1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 984: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 987: <arg fmt="%s" index="1">after_play</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 988: <arg fmt="%s" index="1">win</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="439" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 179: Formal port <arg fmt="%s" index="1">clk2hz</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">clk2hz</arg> of mode <arg fmt="%s" index="4">buffer</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="439" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 180: Formal port <arg fmt="%s" index="1">clk16hz</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">clk16hz</arg> of mode <arg fmt="%s" index="4">buffer</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="439" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 181: Formal port <arg fmt="%s" index="1">clk2khz</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">clk2khz</arg> of mode <arg fmt="%s" index="4">buffer</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_2.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_3.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_4.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_5.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_6.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_7.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_8.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_9.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_10.vhd" Line 22: Using initial value <arg fmt="%s" index="1">&apos;.&apos;</arg> for <arg fmt="%s" index="2">not_clkin</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 431: Assignment to <arg fmt="%s" index="1">a</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">R</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">G</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">B</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Clock</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_DISP_EN</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -36,6 +900,30 @@
 </msg>
 
 <msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_MSD_OUT</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">B</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">set_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;G&gt; &lt;R&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="new" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
 </msg>
 
 <msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Niveau_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">didact_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -126,3 +1014,4 @@
 </msg>
 
 </messages>
+

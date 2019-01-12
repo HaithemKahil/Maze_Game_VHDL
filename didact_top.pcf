@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Jan 08 00:29:22 2019
+// Written by: Map P.20131013 on Sat Jan 12 02:22:26 2019
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -12,6 +12,7 @@ COMP "Q_del<4>" LOCATE = SITE "M11" LEVEL 1;
 COMP "Q_del<5>" LOCATE = SITE "N11" LEVEL 1;
 COMP "Q_del<6>" LOCATE = SITE "R11" LEVEL 1;
 COMP "Q_del<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "kb_data" LOCATE = SITE "J13" LEVEL 1;
 COMP "clkin" LOCATE = SITE "V10" LEVEL 1;
 COMP "bouton1" LOCATE = SITE "D9" LEVEL 1;
 COMP "bouton2" LOCATE = SITE "B8" LEVEL 1;
@@ -21,6 +22,7 @@ COMP "DISP_EN<0>" LOCATE = SITE "P17" LEVEL 1;
 COMP "DISP_EN<1>" LOCATE = SITE "P18" LEVEL 1;
 COMP "DISP_EN<2>" LOCATE = SITE "N15" LEVEL 1;
 COMP "DISP_EN<3>" LOCATE = SITE "N16" LEVEL 1;
+COMP "kb_clk" LOCATE = SITE "L12" LEVEL 1;
 COMP "SEGMENTS<0>" LOCATE = SITE "M13" LEVEL 1;
 COMP "SEGMENTS<1>" LOCATE = SITE "L14" LEVEL 1;
 COMP "SEGMENTS<2>" LOCATE = SITE "N14" LEVEL 1;
@@ -29,52 +31,8 @@ COMP "SEGMENTS<4>" LOCATE = SITE "U18" LEVEL 1;
 COMP "SEGMENTS<5>" LOCATE = SITE "U17" LEVEL 1;
 COMP "SEGMENTS<6>" LOCATE = SITE "T18" LEVEL 1;
 COMP "SEGMENTS<7>" LOCATE = SITE "T17" LEVEL 1;
-TIMEGRP Inst_dcm1_clkfx = BEL "Inst_msa_hdl_Niveau2/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau2/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau2/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau2/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau2/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau5/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau5/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau5/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau3/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau5/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau5/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau3/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau3/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau3/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau3/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau4/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau4/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau4/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau4/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau4/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau6/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau6/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau6/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau6/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau6/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau7/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau7/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau7/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau7/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau7/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau8/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau8/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau8/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau8/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau8/etatpres_FSM_FFd1" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_FSM_FFd5" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_FSM_FFd4" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_FSM_FFd3" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_FSM_FFd2" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_FSM_FFd1" BEL "Inst_dcm1/clkout1_buf"
-        BEL "Inst_msa_hdl_Niveau1/tmp_score_7" BEL
+TIMEGRP Inst_dcm1_clkfx = BEL "Inst_dcm1/clkout1_buf" BEL
+        "Inst_msa_hdl_Niveau1/tmp_score_7" BEL
         "Inst_msa_hdl_Niveau1/tmp_score_6" BEL
         "Inst_msa_hdl_Niveau1/tmp_score_5" BEL
         "Inst_msa_hdl_Niveau1/tmp_score_4" BEL
@@ -91,7 +49,169 @@ TIMEGRP Inst_dcm1_clkfx = BEL "Inst_msa_hdl_Niveau2/etatpres_FSM_FFd5" BEL
         "Inst_msa_hdl_Niveau1/etatsuiv_3" BEL
         "Inst_msa_hdl_Niveau1/etatsuiv_2" BEL
         "Inst_msa_hdl_Niveau1/etatsuiv_1" BEL
-        "Inst_msa_hdl_Niveau1/etatsuiv_0" BEL "inst_diviseur_clk/cnt16hz_18"
+        "Inst_msa_hdl_Niveau1/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau2/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau2/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau2/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau2/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau2/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau2/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau2/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau2/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau2/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau2/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau2/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau3/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau3/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau3/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau3/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau3/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau3/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau3/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau3/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau3/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau3/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau3/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau4/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau4/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau4/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau4/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau4/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau4/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau4/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau4/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau4/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau4/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau4/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau5/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau5/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau5/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau5/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau5/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau5/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau5/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau5/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau5/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau5/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau5/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau6/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau6/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau6/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau6/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau6/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau6/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau6/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau6/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau6/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau6/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau6/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau7/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau7/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau7/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau7/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau7/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau7/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau7/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau7/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau7/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau7/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau7/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau8/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau8/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau8/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau8/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau8/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau8/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau8/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau8/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau8/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau8/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau8/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau9/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau9/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau9/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau9/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau9/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau9/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau9/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau9/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau9/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau9/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau9/etatsuiv_0" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_7" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_6" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_5" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_4" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_3" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_2" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_1" BEL
+        "Inst_msa_hdl_Niveau10/tmp_score_0" BEL
+        "Inst_msa_hdl_Niveau10/etatpres_4" BEL
+        "Inst_msa_hdl_Niveau10/etatpres_3" BEL
+        "Inst_msa_hdl_Niveau10/etatpres_2" BEL
+        "Inst_msa_hdl_Niveau10/etatpres_1" BEL
+        "Inst_msa_hdl_Niveau10/etatpres_0" BEL
+        "Inst_msa_hdl_Niveau10/etatsuiv_4" BEL
+        "Inst_msa_hdl_Niveau10/etatsuiv_3" BEL
+        "Inst_msa_hdl_Niveau10/etatsuiv_2" BEL
+        "Inst_msa_hdl_Niveau10/etatsuiv_1" BEL
+        "Inst_msa_hdl_Niveau10/etatsuiv_0" BEL "inst_diviseur_clk/cnt16hz_18"
         BEL "inst_diviseur_clk/cnt16hz_17" BEL "inst_diviseur_clk/cnt16hz_16"
         BEL "inst_diviseur_clk/cnt16hz_15" BEL "inst_diviseur_clk/cnt16hz_14"
         BEL "inst_diviseur_clk/cnt16hz_13" BEL "inst_diviseur_clk/cnt16hz_12"
@@ -121,6 +241,28 @@ TIMEGRP Inst_dcm1_clkfx = BEL "Inst_msa_hdl_Niveau2/etatpres_FSM_FFd5" BEL
         "inst_diviseur_clk/clk16hz" BEL "inst_diviseur_clk/clk2hz" BEL
         "inst_diviseur_clk/clk2khz" BEL "inst_diviseur_clk/div2khz_temp" BEL
         "inst_diviseur_clk/div16hz_temp" BEL "inst_diviseur_clk/div2hz_temp";
+PIN SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1> = BEL
+        "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1" PINNAME O;
+PIN Inst_dcm1/dcm_sp_inst_pins<1> = BEL "Inst_dcm1/dcm_sp_inst" PINNAME CLKFB;
+TIMEGRP Inst_dcm1_clk0 = BEL "Inst_vga_int/count_1" BEL "Inst_vga_int/count_0"
+        BEL "Inst_vga_int/v_state_FSM_FFd1" BEL
+        "Inst_vga_int/v_state_FSM_FFd2" BEL "Inst_vga_int/h_state_FSM_FFd1"
+        BEL "Inst_vga_int/h_state_FSM_FFd2" BEL "Inst_vga_int/y_count_9" BEL
+        "Inst_vga_int/y_count_8" BEL "Inst_vga_int/y_count_7" BEL
+        "Inst_vga_int/y_count_6" BEL "Inst_vga_int/y_count_5" BEL
+        "Inst_vga_int/y_count_4" BEL "Inst_vga_int/y_count_3" BEL
+        "Inst_vga_int/y_count_2" BEL "Inst_vga_int/y_count_1" BEL
+        "Inst_vga_int/y_count_0" BEL "Inst_vga_int/line_en" BEL
+        "Inst_vga_int/x_count_9" BEL "Inst_vga_int/x_count_8" BEL
+        "Inst_vga_int/x_count_7" BEL "Inst_vga_int/x_count_6" BEL
+        "Inst_vga_int/x_count_5" BEL "Inst_vga_int/x_count_4" BEL
+        "Inst_vga_int/x_count_3" BEL "Inst_vga_int/x_count_2" BEL
+        "Inst_vga_int/x_count_1" BEL "Inst_vga_int/x_count_0" BEL
+        "Inst_vga_int/tempo" BEL "Inst_vga_int/en_25" BEL
+        "Inst_vga_int/x_count_8_1" BEL "Inst_vga_int/x_count_1_1" BEL
+        "Inst_dcm1/clkout2_buf" PIN
+        "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1>" PIN
+        "Inst_dcm1/dcm_sp_inst_pins<1>";
 PIN SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0> = BEL "SP6_BUFIO_INSERT_ML_BUFIO2_0"
         PINNAME DIVCLK;
 PIN Inst_dcm1/dcm_sp_inst_pins<3> = BEL "Inst_dcm1/dcm_sp_inst" PINNAME CLKIN;
@@ -129,5 +271,6 @@ TIMEGRP clkin = PIN "SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0>" PIN
 TS_clkin = PERIOD TIMEGRP "clkin" 10 ns HIGH 50%;
 TS_Inst_dcm1_clkfx = PERIOD TIMEGRP "Inst_dcm1_clkfx" TS_clkin / 0.16 HIGH
         50%;
+TS_Inst_dcm1_clk0 = PERIOD TIMEGRP "Inst_dcm1_clk0" TS_clkin HIGH 50%;
 SCHEMATIC END;
 

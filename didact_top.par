@@ -1,14 +1,14 @@
-Release 14.7 par P.20131013 (nt64)
+Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-LAPTOP-MF8F7AFC::  Tue Jan 08 00:29:25 2019
+0m3g4K0d3r::  Sat Jan 12 02:22:29 2019
 
 par -w -intstyle ise -ol high -mt off didact_top_map.ncd didact_top.ncd
 didact_top.pcf 
 
 
 Constraints file: didact_top.pcf.
-Loading device for application Rf_Device from file '6slx16.nph' in environment F:\Programs\Xilinx\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '6slx16.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
    "didact_top" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
@@ -22,30 +22,30 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                   148 out of  18,224    1%
-    Number used as Flip Flops:                 148
+  Number of Slice Registers:                   337 out of  18,224    1%
+    Number used as Flip Flops:                 317
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
-    Number used as AND/OR logics:                0
-  Number of Slice LUTs:                        266 out of   9,112    2%
-    Number used as logic:                      263 out of   9,112    2%
-      Number using O6 output only:             185
+    Number used as AND/OR logics:               20
+  Number of Slice LUTs:                        752 out of   9,112    8%
+    Number used as logic:                      747 out of   9,112    8%
+      Number using O6 output only:             556
       Number using O5 output only:              47
-      Number using O5 and O6:                   31
+      Number using O5 and O6:                  144
       Number used as ROM:                        0
     Number used as Memory:                       0 out of   2,176    0%
-    Number used exclusively as route-thrus:      3
-      Number with same-slice register load:      0
+    Number used exclusively as route-thrus:      5
+      Number with same-slice register load:      2
       Number with same-slice carry load:         3
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    93 out of   2,278    4%
-  Number of MUXCYs used:                        68 out of   4,556    1%
-  Number of LUT Flip Flop pairs used:          287
-    Number with an unused Flip Flop:           142 out of     287   49%
-    Number with an unused LUT:                  21 out of     287    7%
-    Number of fully used LUT-FF pairs:         124 out of     287   43%
+  Number of occupied Slices:                   286 out of   2,278   12%
+  Number of MUXCYs used:                       108 out of   4,556    2%
+  Number of LUT Flip Flop pairs used:          814
+    Number with an unused Flip Flop:           484 out of     814   59%
+    Number with an unused LUT:                  62 out of     814    7%
+    Number of fully used LUT-FF pairs:         268 out of     814   32%
     Number of slice register sites lost
       to control set restrictions:               0 out of  18,224    0%
 
@@ -56,8 +56,9 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        26 out of     232   11%
-    Number of LOCed IOBs:                       26 out of      26  100%
+  Number of bonded IOBs:                        38 out of     232   16%
+    Number of LOCed IOBs:                       28 out of      38   73%
+    IOB Latches:                                 8
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -68,15 +69,17 @@ Specific Feature Utilization:
   Number of BUFIO2FB/BUFIO2FB_2CLKs:             1 out of      32    3%
     Number used as BUFIO2FBs:                    1
     Number used as BUFIO2FB_2CLKs:               0
-  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
-    Number used as BUFGs:                        2
+  Number of BUFG/BUFGMUXs:                       3 out of      16   18%
+    Number used as BUFGs:                        3
     Number used as BUFGMUX:                      0
   Number of DCM/DCM_CLKGENs:                     1 out of       4   25%
     Number used as DCMs:                         1
     Number used as DCM_CLKGENs:                  0
   Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
   Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
-  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   8 out of     248    3%
+    Number used as OLOGIC2s:                     8
+    Number used as OSERDES2s:                    0
   Number of BSCANs:                              0 out of       4    0%
   Number of BUFHs:                               0 out of     128    0%
   Number of BUFPLLs:                             0 out of       8    0%
@@ -94,35 +97,35 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 2 secs 
-Finished initial Timing Analysis.  REAL time: 2 secs 
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
 
 Starting Router
 
 
-Phase  1  : 1416 unrouted;      REAL time: 3 secs 
+Phase  1  : 4275 unrouted;      REAL time: 4 secs 
 
-Phase  2  : 1278 unrouted;      REAL time: 3 secs 
+Phase  2  : 3930 unrouted;      REAL time: 5 secs 
 
-Phase  3  : 542 unrouted;      REAL time: 3 secs 
+Phase  3  : 1851 unrouted;      REAL time: 5 secs 
 
-Phase  4  : 542 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+Phase  4  : 1851 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 secs 
 
 Updating file: didact_top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
-Total REAL time to Router completion: 4 secs 
-Total CPU time to Router completion: 4 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+Total REAL time to Router completion: 7 secs 
+Total CPU time to Router completion: 7 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -140,13 +143,22 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|            clk_dcm1 | BUFGMUX_X3Y13| No   |   54 |  0.037     |  0.893      |
+|           clk100khz |  BUFGMUX_X2Y3| No   |   16 |  0.032     |  0.883      |
++---------------------+--------------+------+------+------------+-------------+
+|            clk_dcm1 | BUFGMUX_X3Y13| No   |  105 |  0.055     |  0.901      |
++---------------------+--------------+------+------+------------+-------------+
+|        kb_clk_BUFGP |  BUFGMUX_X2Y1| No   |    5 |  0.009     |  0.860      |
 +---------------------+--------------+------+------+------------+-------------+
 |inst_diviseur_clk/cl |              |      |      |            |             |
-|               k2khz |         Local|      |    5 |  1.706     |  2.405      |
+|               k2khz |         Local|      |    5 |  0.476     |  1.642      |
++---------------------+--------------+------+------+------------+-------------+
+|keyboard/scancodeRea |              |      |      |            |             |
+|                  dy |         Local|      |    3 |  0.000     |  0.874      |
 +---------------------+--------------+------+------+------------+-------------+
 |inst_diviseur_clk/cl |              |      |      |            |             |
-|               k16hz |         Local|      |    3 |  0.610     |  2.137      |
+|               k16hz |         Local|      |    3 |  1.173     |  1.627      |
++---------------------+--------------+------+------+------------+-------------+
+|    Inst_rgb_int/B_G |         Local|      |    8 |  0.640     |  2.727      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -171,8 +183,11 @@ Asterisk (*) preceding a constraint indicates it was not met.
   TS_clkin = PERIOD TIMEGRP "clkin" 10 ns H | MINLOWPULSE |     4.660ns|     5.340ns|       0|           0
   IGH 50%                                   |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_Inst_dcm1_clkfx = PERIOD TIMEGRP "Inst | SETUP       |    26.527ns|     9.446ns|       0|           0
-  _dcm1_clkfx" TS_clkin / 0.16 HIGH         | HOLD        |     0.406ns|            |       0|           0
+  TS_Inst_dcm1_clk0 = PERIOD TIMEGRP "Inst_ | SETUP       |     5.165ns|     4.835ns|       0|           0
+  dcm1_clk0" TS_clkin HIGH 50%              | HOLD        |     0.421ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_Inst_dcm1_clkfx = PERIOD TIMEGRP "Inst | SETUP       |    24.879ns|    12.742ns|       0|           0
+  _dcm1_clkfx" TS_clkin / 0.16 HIGH         | HOLD        |     0.415ns|            |       0|           0
    50%                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
 
@@ -187,8 +202,9 @@ Derived Constraints for TS_clkin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_clkin                       |     10.000ns|      5.340ns|      1.511ns|            0|            0|            0|         1951|
-| TS_Inst_dcm1_clkfx            |     62.500ns|      9.446ns|          N/A|            0|            0|         1951|            0|
+|TS_clkin                       |     10.000ns|      5.340ns|      4.835ns|            0|            0|            0|         5450|
+| TS_Inst_dcm1_clkfx            |     62.500ns|     12.742ns|          N/A|            0|            0|         4527|            0|
+| TS_Inst_dcm1_clk0             |     10.000ns|      4.835ns|          N/A|            0|            0|          923|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -198,10 +214,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 4 secs 
-Total CPU time to PAR completion: 4 secs 
+Total REAL time to PAR completion: 8 secs 
+Total CPU time to PAR completion: 8 secs 
 
-Peak Memory Usage:  4505 MB
+Peak Memory Usage:  632 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

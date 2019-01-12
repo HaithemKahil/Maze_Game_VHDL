@@ -55,6 +55,7 @@
 -- "Clock    Freq (MHz) (degrees) Cycle (%) Jitter (ps)  Error (ps)"
 ------------------------------------------------------------------------------
 -- CLK_OUT1____16.000______0.000______50.0_____1450.000____150.000
+-- CLK_OUT2___100.000______0.000______50.0______200.000____150.000
 --
 ------------------------------------------------------------------------------
 -- "Input Clock   Freq (MHz)    Input Jitter (UI)"
@@ -70,6 +71,7 @@ port
   CLK_IN1           : in     std_logic;
   -- Clock out ports
   CLK_OUT1          : out    std_logic;
+  CLK_OUT2          : out    std_logic;
   -- Status and control signals
   RESET             : in     std_logic
  );
@@ -85,6 +87,7 @@ your_instance_name : dcm1
     CLK_IN1 => CLK_IN1,
     -- Clock out ports
     CLK_OUT1 => CLK_OUT1,
+    CLK_OUT2 => CLK_OUT2,
     -- Status and control signals
     RESET  => RESET);
 -- INST_TAG_END ------ End INSTANTIATION Template ------------
