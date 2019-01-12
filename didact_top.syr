@@ -1,21 +1,18 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
---> 
-Reading design: didact_top.prj
+--> Reading design: didact_top.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -111,352 +108,351 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/ipcore_dir/dcm1.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\ipcore_dir\dcm1.vhd" into library work
 Parsing entity <dcm1>.
 Parsing architecture <xilinx> of entity <dcm1>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/bin_to_bcd_convertor.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\bin_to_bcd_convertor.vhd" into library work
 Parsing entity <bin_to_bcd_convertor>.
 Parsing architecture <convertion_behavioral> of entity <bin_to_bcd_convertor>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/vga_int.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\vga_int.vhd" into library work
 Parsing entity <vga_int>.
 Parsing architecture <board> of entity <vga_int>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" into library work
 Parsing entity <set_rgb>.
 Parsing architecture <RGB> of entity <set_rgb>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/ScoreCalculator.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\ScoreCalculator.vhd" into library work
 Parsing entity <ScoreDisplayModule>.
 Parsing architecture <Behavioral> of entity <scoredisplaymodule>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_9.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_9.vhd" into library work
 Parsing entity <msa_hdl_9>.
 Parsing architecture <Behavioral> of entity <msa_hdl_9>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_8.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_8.vhd" into library work
 Parsing entity <msa_hdl_8>.
 Parsing architecture <Behavioral> of entity <msa_hdl_8>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_7.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_7.vhd" into library work
 Parsing entity <msa_hdl_7>.
 Parsing architecture <Behavioral> of entity <msa_hdl_7>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_6.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_6.vhd" into library work
 Parsing entity <msa_hdl_6>.
 Parsing architecture <Behavioral> of entity <msa_hdl_6>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_5.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_5.vhd" into library work
 Parsing entity <msa_hdl_5>.
 Parsing architecture <Behavioral> of entity <msa_hdl_5>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_4.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_4.vhd" into library work
 Parsing entity <msa_hdl_4>.
 Parsing architecture <Behavioral> of entity <msa_hdl_4>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_3.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_3.vhd" into library work
 Parsing entity <msa_hdl_3>.
 Parsing architecture <Behavioral> of entity <msa_hdl_3>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_2.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_2.vhd" into library work
 Parsing entity <msa_hdl_2>.
 Parsing architecture <Behavioral> of entity <msa_hdl_2>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_10.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_10.vhd" into library work
 Parsing entity <msa_hdl_10>.
 Parsing architecture <Behavioral> of entity <msa_hdl_10>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl.vhd" into library work
 Parsing entity <msa_hdl>.
 Parsing architecture <Behavioral> of entity <msa_hdl>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/KeyboardMod.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\KeyboardMod.vhd" into library work
 Parsing entity <KeyboardMod>.
 Parsing architecture <Behavioral> of entity <keyboardmod>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/encodeurP.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\encodeurP.vhd" into library work
 Parsing entity <encodeurP>.
 Parsing architecture <comportementale> of entity <encodeurp>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd" into library work
 Parsing entity <diviseur_clk>.
 Parsing architecture <Behavioral> of entity <diviseur_clk>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/debounce_hdl.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\debounce_hdl.vhd" into library work
 Parsing entity <debounce_hdl>.
 Parsing architecture <Behavioral> of entity <debounce_hdl>.
-Parsing VHDL file "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" into library work
+Parsing VHDL file "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" into library work
 Parsing entity <didact_top>.
 Parsing architecture <Behavioral> of entity <didact_top>.
-INFO:HDLCompiler:1676 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 179. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
-INFO:HDLCompiler:1676 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 180. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
-INFO:HDLCompiler:1676 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 181. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
-WARNING:HDLCompiler:946 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 274: Actual for formal port sig_in is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 279: Actual for formal port sig_in is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 284: Actual for formal port sig_in is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 290: Actual for formal port sig_in is neither a static name nor a globally static expression
+INFO:HDLCompiler:1676 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 179. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+INFO:HDLCompiler:1676 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 180. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+INFO:HDLCompiler:1676 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 181. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+WARNING:HDLCompiler:946 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 270: Actual for formal port sig_in is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 275: Actual for formal port sig_in is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 280: Actual for formal port sig_in is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 286: Actual for formal port sig_in is neither a static name nor a globally static expression
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
 Elaborating entity <didact_top> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 234: Using initial value '0' for win since it is never assigned
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 235: Using initial value '0' for after_play since it is never assigned
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 241: score_n1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 234: Using initial value '0' for win since it is never assigned
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 235: Using initial value '0' for after_play since it is never assigned
 
 Elaborating entity <set_rgb> (architecture <RGB>) from library <work>.
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 99: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 101: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 103: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 105: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 107: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 109: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 111: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 113: q_del should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 142: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 143: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 146: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 147: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 155: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 156: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 159: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 160: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 168: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 169: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 172: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 173: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 181: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 182: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 185: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 186: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 194: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 195: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 198: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 199: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 207: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 208: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 211: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 212: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 220: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 221: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 224: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 225: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 233: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 234: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 237: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 238: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 246: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 247: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 250: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 251: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 259: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 260: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 263: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 264: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 272: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 273: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 276: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 277: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 285: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 286: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 289: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 290: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 298: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 299: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 302: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 303: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 311: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 312: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 315: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 316: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 324: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 325: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 328: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 329: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 337: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 338: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 341: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 342: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 350: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 351: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 354: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 355: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 363: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 364: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 367: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 368: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 377: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 378: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 381: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 382: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 391: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 392: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 395: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 396: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 405: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 406: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 409: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 410: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 419: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 420: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 423: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 424: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 433: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 434: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 437: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 438: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 447: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 448: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 451: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 452: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 461: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 462: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 465: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 466: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 475: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 476: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 479: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 480: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 488: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 489: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 492: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 493: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 501: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 502: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 505: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 506: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 514: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 515: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 518: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 519: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 527: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 528: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 531: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 532: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 540: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 541: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 544: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 545: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 553: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 554: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 557: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 558: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 566: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 567: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 570: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 571: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 579: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 580: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 583: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 584: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 592: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 593: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 596: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 597: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 605: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 606: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 609: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 610: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 618: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 619: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 622: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 623: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 631: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 632: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 635: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 636: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 644: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 645: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 648: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 649: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 657: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 658: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 661: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 662: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 670: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 671: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 674: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 675: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 684: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 685: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 688: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 689: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 697: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 698: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 701: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 702: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 710: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 711: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 714: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 715: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 723: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 724: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 727: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 728: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 736: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 737: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 740: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 741: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 749: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 750: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 753: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 754: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 762: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 763: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 766: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 767: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 775: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 776: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 779: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 780: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 788: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 789: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 792: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 793: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 801: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 802: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 805: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 806: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 814: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 815: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 818: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 819: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 827: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 828: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 831: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 832: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 840: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 841: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 844: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 845: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 853: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 854: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 857: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 858: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 866: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 867: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 870: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 871: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 879: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 880: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 883: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 884: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 892: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 893: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 896: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 897: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 905: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 906: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 909: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 910: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 918: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 919: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 922: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 923: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 931: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 932: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 935: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 936: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 944: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 945: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 948: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 949: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 957: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 958: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 961: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 962: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 970: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 971: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 974: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 975: win should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 983: h1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 984: a should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 987: after_play should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd" Line 988: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 99: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 101: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 103: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 105: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 107: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 109: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 111: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 114: q_del should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 151: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 152: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 155: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 156: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 164: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 165: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 168: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 169: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 177: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 178: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 181: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 182: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 190: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 191: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 194: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 195: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 203: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 204: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 207: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 208: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 216: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 217: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 220: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 221: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 229: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 230: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 233: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 234: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 242: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 243: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 246: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 247: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 255: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 256: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 259: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 260: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 268: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 269: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 272: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 273: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 281: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 282: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 285: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 286: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 294: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 295: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 298: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 299: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 307: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 308: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 311: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 312: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 320: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 321: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 324: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 325: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 333: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 334: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 337: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 338: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 346: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 347: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 350: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 351: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 359: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 360: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 363: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 364: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 372: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 373: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 376: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 377: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 386: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 387: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 390: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 391: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 400: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 401: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 404: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 405: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 414: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 415: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 418: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 419: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 428: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 429: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 432: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 433: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 442: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 443: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 446: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 447: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 456: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 457: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 460: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 461: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 470: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 471: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 474: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 475: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 484: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 485: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 488: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 489: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 497: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 498: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 501: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 502: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 510: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 511: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 514: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 515: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 523: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 524: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 527: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 528: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 536: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 537: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 540: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 541: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 549: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 550: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 553: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 554: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 562: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 563: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 566: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 567: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 575: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 576: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 579: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 580: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 588: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 589: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 592: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 593: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 601: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 602: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 605: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 606: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 614: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 615: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 618: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 619: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 627: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 628: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 631: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 632: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 640: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 641: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 644: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 645: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 653: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 654: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 657: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 658: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 666: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 667: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 670: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 671: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 679: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 680: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 683: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 684: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 693: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 694: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 697: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 698: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 706: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 707: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 710: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 711: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 719: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 720: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 723: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 724: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 732: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 733: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 736: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 737: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 745: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 746: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 749: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 750: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 758: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 759: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 762: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 763: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 771: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 772: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 775: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 776: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 784: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 785: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 788: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 789: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 797: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 798: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 801: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 802: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 810: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 811: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 814: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 815: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 823: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 824: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 827: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 828: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 836: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 837: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 840: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 841: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 849: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 850: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 853: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 854: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 862: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 863: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 866: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 867: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 875: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 876: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 879: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 880: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 888: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 889: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 892: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 893: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 901: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 902: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 905: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 906: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 914: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 915: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 918: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 919: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 927: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 928: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 931: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 932: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 940: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 941: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 944: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 945: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 953: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 954: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 957: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 958: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 966: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 967: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 970: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 971: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 979: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 980: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 983: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 984: win should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 992: h1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 993: a should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 996: after_play should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd" Line 997: win should be on the sensitivity list of the process
 
 Elaborating entity <vga_int> (architecture <board>) from library <work>.
 
@@ -465,88 +461,88 @@ Elaborating entity <KeyboardMod> (architecture <Behavioral>) from library <work>
 Elaborating entity <debounce_hdl> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <dcm1> (architecture <xilinx>) from library <work>.
-WARNING:HDLCompiler:439 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 179: Formal port clk2hz of mode out cannot be associated with actual port clk2hz of mode buffer
-INFO:HDLCompiler:1408 - "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd" Line 9. clk2hz is declared here
-WARNING:HDLCompiler:439 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 180: Formal port clk16hz of mode out cannot be associated with actual port clk16hz of mode buffer
-INFO:HDLCompiler:1408 - "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd" Line 10. clk16hz is declared here
-WARNING:HDLCompiler:439 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 181: Formal port clk2khz of mode out cannot be associated with actual port clk2khz of mode buffer
-INFO:HDLCompiler:1408 - "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd" Line 11. clk2khz is declared here
+WARNING:HDLCompiler:439 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 179: Formal port clk2hz of mode out cannot be associated with actual port clk2hz of mode buffer
+INFO:HDLCompiler:1408 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd" Line 9. clk2hz is declared here
+WARNING:HDLCompiler:439 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 180: Formal port clk16hz of mode out cannot be associated with actual port clk16hz of mode buffer
+INFO:HDLCompiler:1408 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd" Line 10. clk16hz is declared here
+WARNING:HDLCompiler:439 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 181: Formal port clk2khz of mode out cannot be associated with actual port clk2khz of mode buffer
+INFO:HDLCompiler:1408 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd" Line 11. clk2khz is declared here
 
 Elaborating entity <diviseur_clk> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:1408 - "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd" Line 9. clk2hz is declared here
-INFO:HDLCompiler:1408 - "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd" Line 10. clk16hz is declared here
-INFO:HDLCompiler:1408 - "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd" Line 11. clk2khz is declared here
+INFO:HDLCompiler:1408 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd" Line 9. clk2hz is declared here
+INFO:HDLCompiler:1408 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd" Line 10. clk16hz is declared here
+INFO:HDLCompiler:1408 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd" Line 11. clk2khz is declared here
 
 Elaborating entity <msa_hdl> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_2> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_2.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_2.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_2.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_2.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_3> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_3.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_3.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_3.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_3.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_4> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_4.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_4.vhd" Line 299. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_4.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_4.vhd" Line 299. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_5> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_5.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_5.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_5.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_5.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_6> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_6.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_6.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_6.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_6.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_7> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_7.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_7.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_7.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_7.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_8> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_8.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_8.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_8.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_8.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_9> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_9.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_9.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_9.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_9.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <msa_hdl_10> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_10.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_10.vhd" Line 287. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:871 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_10.vhd" Line 22: Using initial value '.' for not_clkin since it is never assigned
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_10.vhd" Line 287. Case statement is complete. others clause is never selected
 
 Elaborating entity <encodeurP> (architecture <comportementale>) with generics from library <work>.
 
 Elaborating entity <ScoreDisplayModule> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <bin_to_bcd_convertor> (architecture <convertion_behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/bin_to_bcd_convertor.vhd" Line 88. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/bin_to_bcd_convertor.vhd" Line 102. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/omega-coder/Projects/Maze_Game_VHDL/ScoreCalculator.vhd" Line 110. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:1127 - "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd" Line 431: Assignment to a ignored, since the identifier is never used
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\bin_to_bcd_convertor.vhd" Line 88. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\bin_to_bcd_convertor.vhd" Line 102. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\ScoreCalculator.vhd" Line 110. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:1127 - "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd" Line 427: Assignment to a ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <didact_top>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.vhd".
     Found 32-bit register for signal <Niveau>.
     Found 8-bit register for signal <Q_del>.
-    Found 8-bit adder for signal <n0066> created at line 241.
-    Found 8-bit adder for signal <n0069> created at line 241.
-    Found 8-bit adder for signal <n0072> created at line 241.
-    Found 8-bit adder for signal <n0075> created at line 241.
-    Found 8-bit adder for signal <n0078> created at line 241.
-    Found 8-bit adder for signal <n0081> created at line 241.
-    Found 8-bit adder for signal <n0084> created at line 241.
-    Found 8-bit adder for signal <n0087> created at line 241.
-    Found 8-bit adder for signal <total_score> created at line 241.
-    Found 32-bit adder for signal <Niveau[31]_GND_5_o_add_12_OUT> created at line 441.
-    Found 1-bit 10-to-1 multiplexer for signal <Niveau[3]_X_5_o_Mux_10_o> created at line 437.
-    Found 32-bit comparator greater for signal <GND_5_o_Niveau[31]_LessThan_12_o> created at line 440
+    Found 32-bit adder for signal <Niveau[31]_GND_5_o_add_3_OUT> created at line 437.
+    Found 8-bit adder for signal <n0068> created at line 461.
+    Found 8-bit adder for signal <n0071> created at line 461.
+    Found 8-bit adder for signal <n0074> created at line 461.
+    Found 8-bit adder for signal <n0077> created at line 461.
+    Found 8-bit adder for signal <n0080> created at line 461.
+    Found 8-bit adder for signal <n0083> created at line 461.
+    Found 8-bit adder for signal <n0086> created at line 461.
+    Found 8-bit adder for signal <n0089> created at line 461.
+    Found 8-bit adder for signal <total_score> created at line 461.
+    Found 1-bit 10-to-1 multiplexer for signal <Niveau[3]_X_5_o_Mux_1_o> created at line 433.
+    Found 32-bit comparator greater for signal <GND_5_o_Niveau[31]_LessThan_3_o> created at line 436
     Summary:
 	inferred  10 Adder/Subtractor(s).
 	inferred  40 D-type flip-flop(s).
@@ -555,73 +551,73 @@ Synthesizing Unit <didact_top>.
 Unit <didact_top> synthesized.
 
 Synthesizing Unit <set_rgb>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/setrgb.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\setrgb.vhd".
 WARNING:Xst:647 - Input <Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 32-bit adder for signal <h1[31]_GND_6_o_add_291_OUT> created at line 566.
-    Found 32-bit adder for signal <h2[31]_GND_6_o_add_294_OUT> created at line 566.
-    Found 32-bit adder for signal <h1[31]_GND_6_o_add_447_OUT> created at line 775.
-    Found 32-bit adder for signal <h2[31]_GND_6_o_add_450_OUT> created at line 775.
-    Found 32-bit adder for signal <h1[31]_GND_6_o_add_533_OUT> created at line 879.
-    Found 32-bit adder for signal <h2[31]_GND_6_o_add_536_OUT> created at line 879.
-    Found 32-bit adder for signal <v1[31]_GND_6_o_add_579_OUT> created at line 931.
-    Found 32-bit adder for signal <v2[31]_GND_6_o_add_582_OUT> created at line 931.
-    Found 32-bit adder for signal <v1[31]_GND_6_o_add_603_OUT> created at line 957.
-    Found 32-bit adder for signal <v2[31]_GND_6_o_add_606_OUT> created at line 957.
-    Found 32-bit adder for signal <v1[31]_GND_6_o_add_615_OUT> created at line 970.
-    Found 32-bit adder for signal <v2[31]_GND_6_o_add_618_OUT> created at line 970.
-    Found 32-bit adder for signal <h1[31]_GND_6_o_add_621_OUT> created at line 983.
-    Found 32-bit adder for signal <h2[31]_GND_6_o_add_624_OUT> created at line 983.
-    Found 32-bit adder for signal <v1[31]_GND_6_o_add_627_OUT> created at line 983.
-    Found 32-bit adder for signal <v2[31]_GND_6_o_add_630_OUT> created at line 983.
-    Found 3x32-bit multiplier for signal <n0761> created at line 931.
-    Found 4x32-bit multiplier for signal <n0767> created at line 957.
-    Found 4x32-bit multiplier for signal <n0770> created at line 970.
-    Found 4x32-bit multiplier for signal <n0773> created at line 983.
+    Found 32-bit adder for signal <h1[31]_GND_6_o_add_291_OUT> created at line 575.
+    Found 32-bit adder for signal <h2[31]_GND_6_o_add_294_OUT> created at line 575.
+    Found 32-bit adder for signal <h1[31]_GND_6_o_add_447_OUT> created at line 784.
+    Found 32-bit adder for signal <h2[31]_GND_6_o_add_450_OUT> created at line 784.
+    Found 32-bit adder for signal <h1[31]_GND_6_o_add_533_OUT> created at line 888.
+    Found 32-bit adder for signal <h2[31]_GND_6_o_add_536_OUT> created at line 888.
+    Found 32-bit adder for signal <v1[31]_GND_6_o_add_579_OUT> created at line 940.
+    Found 32-bit adder for signal <v2[31]_GND_6_o_add_582_OUT> created at line 940.
+    Found 32-bit adder for signal <v1[31]_GND_6_o_add_601_OUT> created at line 966.
+    Found 32-bit adder for signal <v2[31]_GND_6_o_add_604_OUT> created at line 966.
+    Found 32-bit adder for signal <v1[31]_GND_6_o_add_613_OUT> created at line 979.
+    Found 32-bit adder for signal <v2[31]_GND_6_o_add_616_OUT> created at line 979.
+    Found 32-bit adder for signal <h1[31]_GND_6_o_add_619_OUT> created at line 992.
+    Found 32-bit adder for signal <h2[31]_GND_6_o_add_622_OUT> created at line 992.
+    Found 32-bit adder for signal <v1[31]_GND_6_o_add_625_OUT> created at line 992.
+    Found 32-bit adder for signal <v2[31]_GND_6_o_add_628_OUT> created at line 992.
+    Found 3x32-bit multiplier for signal <n0759> created at line 940.
+    Found 4x32-bit multiplier for signal <n0764> created at line 966.
+    Found 4x32-bit multiplier for signal <n0767> created at line 979.
+    Found 4x32-bit multiplier for signal <n0770> created at line 992.
 WARNING:Xst:737 - Found 1-bit latch for signal <R>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <G>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <B>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_57_o> created at line 233
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_58_o> created at line 233
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_126_o> created at line 337
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_128_o> created at line 337
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_196_o> created at line 447
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_198_o> created at line 447
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_293_o> created at line 566
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_296_o> created at line 566
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_364_o> created at line 670
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_366_o> created at line 670
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_449_o> created at line 775
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_452_o> created at line 775
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_535_o> created at line 879
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_538_o> created at line 879
-    Found 32-bit comparator lessequal for signal <n0323> created at line 892
-    Found 32-bit comparator lessequal for signal <n0325> created at line 892
-    Found 32-bit comparator lessequal for signal <n0333> created at line 905
-    Found 32-bit comparator lessequal for signal <n0336> created at line 905
-    Found 32-bit comparator lessequal for signal <n0344> created at line 918
-    Found 32-bit comparator lessequal for signal <n0347> created at line 918
-    Found 32-bit comparator lessequal for signal <n0356> created at line 931
-    Found 32-bit comparator lessequal for signal <n0359> created at line 931
-    Found 32-bit comparator lessequal for signal <n0367> created at line 944
-    Found 32-bit comparator lessequal for signal <n0370> created at line 944
-    Found 32-bit comparator lessequal for signal <n0381> created at line 957
-    Found 32-bit comparator lessequal for signal <n0384> created at line 957
-    Found 32-bit comparator lessequal for signal <n0393> created at line 970
-    Found 32-bit comparator lessequal for signal <n0396> created at line 970
-    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_623_o> created at line 983
-    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_626_o> created at line 983
-    Found 32-bit comparator lessequal for signal <n0409> created at line 983
-    Found 32-bit comparator lessequal for signal <n0412> created at line 983
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_57_o> created at line 242
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_58_o> created at line 242
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_126_o> created at line 346
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_128_o> created at line 346
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_196_o> created at line 456
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_198_o> created at line 456
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_293_o> created at line 575
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_296_o> created at line 575
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_364_o> created at line 679
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_366_o> created at line 679
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_449_o> created at line 784
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_452_o> created at line 784
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_535_o> created at line 888
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_538_o> created at line 888
+    Found 32-bit comparator lessequal for signal <n0323> created at line 901
+    Found 32-bit comparator lessequal for signal <n0325> created at line 901
+    Found 32-bit comparator lessequal for signal <n0333> created at line 914
+    Found 32-bit comparator lessequal for signal <n0336> created at line 914
+    Found 32-bit comparator lessequal for signal <n0344> created at line 927
+    Found 32-bit comparator lessequal for signal <n0347> created at line 927
+    Found 32-bit comparator lessequal for signal <n0356> created at line 940
+    Found 32-bit comparator lessequal for signal <n0359> created at line 940
+    Found 32-bit comparator lessequal for signal <n0367> created at line 953
+    Found 32-bit comparator lessequal for signal <n0370> created at line 953
+    Found 32-bit comparator lessequal for signal <n0379> created at line 966
+    Found 32-bit comparator lessequal for signal <n0382> created at line 966
+    Found 32-bit comparator lessequal for signal <n0391> created at line 979
+    Found 32-bit comparator lessequal for signal <n0394> created at line 979
+    Found 32-bit comparator greater for signal <GND_6_o_h1[31]_LessThan_621_o> created at line 992
+    Found 32-bit comparator greater for signal <h2[31]_GND_6_o_LessThan_624_o> created at line 992
+    Found 32-bit comparator lessequal for signal <n0407> created at line 992
+    Found 32-bit comparator lessequal for signal <n0410> created at line 992
     Summary:
 	inferred   4 Multiplier(s).
 	inferred  16 Adder/Subtractor(s).
 	inferred   3 Latch(s).
 	inferred  32 Comparator(s).
-	inferred 512 Multiplexer(s).
+	inferred 518 Multiplexer(s).
 Unit <set_rgb> synthesized.
 
 Synthesizing Unit <vga_int>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/vga_int.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\vga_int.vhd".
     Found 1-bit register for signal <en_25>.
     Found 10-bit register for signal <x_count>.
     Found 2-bit register for signal <h_state>.
@@ -665,7 +661,7 @@ Synthesizing Unit <vga_int>.
 Unit <vga_int> synthesized.
 
 Synthesizing Unit <KeyboardMod>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/KeyboardMod.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\KeyboardMod.vhd".
 WARNING:Xst:647 - Input <Clock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 7-bit register for signal <bitCount>.
     Found 8-bit register for signal <scancode>.
@@ -683,7 +679,7 @@ WARNING:Xst:647 - Input <Clock> is never used. This port will be preserved and l
 Unit <KeyboardMod> synthesized.
 
 Synthesizing Unit <debounce_hdl>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/debounce_hdl.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\debounce_hdl.vhd".
     Found 1-bit register for signal <Q2>.
     Found 1-bit register for signal <Q3>.
     Found 1-bit register for signal <Q1>.
@@ -692,13 +688,13 @@ Synthesizing Unit <debounce_hdl>.
 Unit <debounce_hdl> synthesized.
 
 Synthesizing Unit <dcm1>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/ipcore_dir/dcm1.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\ipcore_dir\dcm1.vhd".
     Summary:
 	no macro.
 Unit <dcm1> synthesized.
 
 Synthesizing Unit <diviseur_clk>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/diviseur_clk.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\diviseur_clk.vhd".
     Found 22-bit register for signal <cnt2hz>.
     Found 1-bit register for signal <clk2hz>.
     Found 1-bit register for signal <div16hz_temp>.
@@ -721,7 +717,7 @@ Synthesizing Unit <diviseur_clk>.
 Unit <diviseur_clk> synthesized.
 
 Synthesizing Unit <msa_hdl>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -735,7 +731,7 @@ Synthesizing Unit <msa_hdl>.
 Unit <msa_hdl> synthesized.
 
 Synthesizing Unit <msa_hdl_2>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_2.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_2.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -748,7 +744,7 @@ Synthesizing Unit <msa_hdl_2>.
 Unit <msa_hdl_2> synthesized.
 
 Synthesizing Unit <msa_hdl_3>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_3.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_3.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -762,7 +758,7 @@ Synthesizing Unit <msa_hdl_3>.
 Unit <msa_hdl_3> synthesized.
 
 Synthesizing Unit <msa_hdl_4>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_4.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_4.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -776,7 +772,7 @@ Synthesizing Unit <msa_hdl_4>.
 Unit <msa_hdl_4> synthesized.
 
 Synthesizing Unit <msa_hdl_5>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_5.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_5.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -790,7 +786,7 @@ Synthesizing Unit <msa_hdl_5>.
 Unit <msa_hdl_5> synthesized.
 
 Synthesizing Unit <msa_hdl_6>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_6.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_6.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -804,7 +800,7 @@ Synthesizing Unit <msa_hdl_6>.
 Unit <msa_hdl_6> synthesized.
 
 Synthesizing Unit <msa_hdl_7>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_7.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_7.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -818,7 +814,7 @@ Synthesizing Unit <msa_hdl_7>.
 Unit <msa_hdl_7> synthesized.
 
 Synthesizing Unit <msa_hdl_8>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_8.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_8.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -832,7 +828,7 @@ Synthesizing Unit <msa_hdl_8>.
 Unit <msa_hdl_8> synthesized.
 
 Synthesizing Unit <msa_hdl_9>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_9.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_9.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -846,7 +842,7 @@ Synthesizing Unit <msa_hdl_9>.
 Unit <msa_hdl_9> synthesized.
 
 Synthesizing Unit <msa_hdl_10>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/msa_hdl_10.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\msa_hdl_10.vhd".
     Found 5-bit register for signal <etatpres>.
     Found 8-bit register for signal <tmp_score>.
     Found 5-bit register for signal <etatsuiv>.
@@ -860,14 +856,14 @@ Synthesizing Unit <msa_hdl_10>.
 Unit <msa_hdl_10> synthesized.
 
 Synthesizing Unit <encodeurP>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/encodeurP.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\encodeurP.vhd".
         n = 2
     Summary:
 	inferred   2 Multiplexer(s).
 Unit <encodeurP> synthesized.
 
 Synthesizing Unit <ScoreDisplayModule>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/ScoreCalculator.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\ScoreCalculator.vhd".
     Found 2-bit register for signal <cnt_dig>.
     Found 2-bit adder for signal <cnt_dig[1]_GND_162_o_add_0_OUT> created at line 65.
     Found 16x8-bit Read Only RAM for signal <SEGMENTS>
@@ -881,7 +877,7 @@ Synthesizing Unit <ScoreDisplayModule>.
 Unit <ScoreDisplayModule> synthesized.
 
 Synthesizing Unit <bin_to_bcd_convertor>.
-    Related source file is "/home/omega-coder/Projects/Maze_Game_VHDL/bin_to_bcd_convertor.vhd".
+    Related source file is "F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\bin_to_bcd_convertor.vhd".
     Found 8-bit adder for signal <GND_163_o_GND_163_o_add_1_OUT> created at line 51.
     Found 8-bit adder for signal <GND_163_o_GND_163_o_add_3_OUT> created at line 52.
     Found 8-bit adder for signal <GND_163_o_GND_163_o_add_5_OUT> created at line 53.
@@ -964,9 +960,9 @@ Macro Statistics
  32-bit comparator lessequal                           : 16
  7-bit comparator greater                              : 2
  8-bit comparator greater                              : 11
-# Multiplexers                                         : 839
+# Multiplexers                                         : 845
  1-bit 10-to-1 multiplexer                             : 1
- 1-bit 2-to-1 multiplexer                              : 536
+ 1-bit 2-to-1 multiplexer                              : 542
  10-bit 2-to-1 multiplexer                             : 8
  10-bit 4-to-1 multiplexer                             : 2
  2-bit 2-to-1 multiplexer                              : 2
@@ -1058,7 +1054,7 @@ Unit <bin_to_bcd_convertor> synthesized (advanced).
 Synthesizing (advanced) Unit <didact_top>.
 The following registers are absorbed into counter <Niveau>: 1 register on signal <Niveau>.
 	The following adders/subtractors are grouped into adder tree <Madd_total_score1> :
- 	<Madd_n0066> in block <didact_top>, 	<Madd_n0069> in block <didact_top>, 	<Madd_n0072> in block <didact_top>, 	<Madd_n0075> in block <didact_top>, 	<Madd_n0078> in block <didact_top>, 	<Madd_n0081> in block <didact_top>, 	<Madd_n0084> in block <didact_top>, 	<Madd_n0087> in block <didact_top>, 	<Madd_total_score> in block <didact_top>.
+ 	<Madd_n0068> in block <didact_top>, 	<Madd_n0071> in block <didact_top>, 	<Madd_n0074> in block <didact_top>, 	<Madd_n0077> in block <didact_top>, 	<Madd_n0080> in block <didact_top>, 	<Madd_n0083> in block <didact_top>, 	<Madd_n0086> in block <didact_top>, 	<Madd_n0089> in block <didact_top>, 	<Madd_total_score> in block <didact_top>.
 Unit <didact_top> synthesized (advanced).
 
 Synthesizing (advanced) Unit <diviseur_clk>.
@@ -1106,9 +1102,9 @@ Macro Statistics
  32-bit comparator lessequal                           : 16
  7-bit comparator greater                              : 2
  8-bit comparator greater                              : 11
-# Multiplexers                                         : 837
+# Multiplexers                                         : 843
  1-bit 10-to-1 multiplexer                             : 1
- 1-bit 2-to-1 multiplexer                              : 536
+ 1-bit 2-to-1 multiplexer                              : 542
  10-bit 2-to-1 multiplexer                             : 8
  10-bit 4-to-1 multiplexer                             : 2
  2-bit 2-to-1 multiplexer                              : 2
@@ -1273,15 +1269,15 @@ Top Level Output File Name         : didact_top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1103
+# BELS                             : 1083
 #      GND                         : 1
 #      INV                         : 12
 #      LUT1                        : 50
 #      LUT2                        : 66
-#      LUT3                        : 95
+#      LUT3                        : 92
 #      LUT4                        : 113
-#      LUT5                        : 168
-#      LUT6                        : 382
+#      LUT5                        : 165
+#      LUT6                        : 368
 #      MUXCY                       : 96
 #      MUXF7                       : 22
 #      VCC                         : 1
@@ -1315,14 +1311,14 @@ Selected Device : 6slx16csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:             317  out of  18224     1%  
- Number of Slice LUTs:                  886  out of   9112     9%  
-    Number used as Logic:               886  out of   9112     9%  
+ Number of Slice LUTs:                  866  out of   9112     9%  
+    Number used as Logic:               866  out of   9112     9%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    957
-   Number with an unused Flip Flop:     640  out of    957    66%  
-   Number with an unused LUT:            71  out of    957     7%  
-   Number of fully used LUT-FF pairs:   246  out of    957    25%  
+ Number of LUT Flip Flop pairs used:    937
+   Number with an unused Flip Flop:     620  out of    937    66%  
+   Number with an unused LUT:            71  out of    937     7%  
+   Number of fully used LUT-FF pairs:   246  out of    937    26%  
    Number of unique control sets:        21
 
 IO Utilization: 
@@ -1351,20 +1347,17 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-------------------------------------+------------------------+-------+
-Clock Signal                        | Clock buffer(FF name)  | Load  |
-------------------------------------+------------------------+-------+
-inst_diviseur_clk/clk16hz           | NONE(shreg_0)          | 12    |
-inst_diviseur_clk/clk2khz           | NONE(inst4_debounce/Q3)| 14    |
-clkin                               | DCM_SP:CLKFX           | 239   |
-kb_clk                              | BUFGP                  | 16    |
-keyboard/scancodeReady              | NONE(keyboard/kb_out_3)| 5     |
-clkin                               | DCM_SP:CLK0            | 31    |
-Inst_rgb_int/B_G(Inst_rgb_int/B_G:O)| NONE(*)(Inst_rgb_int/B)| 8     |
-------------------------------------+------------------------+-------+
-(*) This 1 clock signal(s) are generated by combinatorial logic,
-and XST is not able to identify which are the primary clock signals.
-Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+----------------------------------------------+------------------------+-------+
+Clock Signal                                  | Clock buffer(FF name)  | Load  |
+----------------------------------------------+------------------------+-------+
+inst_diviseur_clk/clk16hz                     | NONE(shreg_0)          | 12    |
+inst_diviseur_clk/clk2khz                     | NONE(inst4_debounce/Q3)| 14    |
+clkin                                         | DCM_SP:CLKFX           | 239   |
+kb_clk                                        | BUFGP                  | 16    |
+keyboard/scancodeReady                        | NONE(keyboard/kb_out_3)| 5     |
+clkin                                         | DCM_SP:CLK0            | 31    |
+Mcompar_GND_5_o_Niveau[31]_LessThan_3_o_lut<1>| NONE(Inst_rgb_int/B)   | 8     |
+----------------------------------------------+------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
@@ -1400,9 +1393,9 @@ Delay:               3.884ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDCE:C->Q             5   0.447   1.079  Niveau_1 (Niveau_1)
-     LUT6:I0->O            1   0.203   0.000  Mmux_Niveau[3]_X_5_o_Mux_10_o_6 (Mmux_Niveau[3]_X_5_o_Mux_10_o_6)
-     MUXF7:I1->O           1   0.140   0.580  Mmux_Niveau[3]_X_5_o_Mux_10_o_5_f7 (Mmux_Niveau[3]_X_5_o_Mux_10_o_5_f7)
-     LUT5:I4->O           12   0.205   0.908  Niveau<3>3 (Niveau[3]_X_5_o_Mux_10_o)
+     LUT6:I0->O            1   0.203   0.000  Mmux_Niveau[3]_X_5_o_Mux_1_o_6 (Mmux_Niveau[3]_X_5_o_Mux_1_o_6)
+     MUXF7:I1->O           1   0.140   0.580  Mmux_Niveau[3]_X_5_o_Mux_1_o_5_f7 (Mmux_Niveau[3]_X_5_o_Mux_1_o_5_f7)
+     LUT5:I4->O           12   0.205   0.908  Niveau<3>3 (Niveau[3]_X_5_o_Mux_1_o)
      FDCE:CE                   0.322          shreg_0
     ----------------------------------------
     Total                      3.884ns (1.317ns logic, 2.567ns route)
@@ -1446,7 +1439,7 @@ Delay:               4.985ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDE:C->Q             18   0.447   1.278  Inst_vga_int/x_count_0 (Inst_vga_int/x_count_0)
-     LUT3:I0->O            1   0.205   0.684  Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW1 (N125)
+     LUT3:I0->O            1   0.205   0.684  Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW1 (N123)
      LUT6:I4->O            4   0.203   0.912  Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>21 (Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>2)
      LUT6:I3->O            6   0.205   0.745  Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411 (Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41)
      LUT6:I5->O            1   0.205   0.000  Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT51 (Inst_vga_int/h_state[1]_x_count[9]_wide_mux_19_OUT<4>)
@@ -1588,20 +1581,20 @@ Offset:              3.332ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'inst_diviseur_clk/clk16hz'
   Total number of paths / destination ports: 8 / 8
 -------------------------------------------------------------------------
-Offset:              4.171ns (Levels of Logic = 1)
-  Source:            shreg_2 (FF)
-  Destination:       Q_del<2> (PAD)
+Offset:              4.151ns (Levels of Logic = 1)
+  Source:            shreg_7 (FF)
+  Destination:       Q_del<7> (PAD)
   Source Clock:      inst_diviseur_clk/clk16hz rising
 
-  Data Path: shreg_2 to Q_del<2>
+  Data Path: shreg_7 to Q_del<7>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q            23   0.447   1.153  shreg_2 (shreg_2)
-     OBUF:I->O                 2.571          Q_del_2_OBUF (Q_del<2>)
+     FDCE:C->Q            22   0.447   1.133  shreg_7 (shreg_7)
+     OBUF:I->O                 2.571          Q_del_7_OBUF (Q_del<7>)
     ----------------------------------------
-    Total                      4.171ns (3.018ns logic, 1.153ns route)
-                                       (72.3% logic, 27.7% route)
+    Total                      4.151ns (3.018ns logic, 1.133ns route)
+                                       (72.7% logic, 27.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clkin'
@@ -1629,7 +1622,7 @@ Offset:              15.474ns (Levels of Logic = 17)
      MUXCY:S->O            1   0.172   0.000  ADDERTREE_INTERNAL_Madd8_cy<5> (ADDERTREE_INTERNAL_Madd8_cy<5>)
      XORCY:CI->O          15   0.180   1.326  ADDERTREE_INTERNAL_Madd8_xor<6> (ADDERTREE_INTERNAL_Madd_68)
      LUT6:I1->O            2   0.203   0.845  score_display/my_conv/MSD_OUT<3>1 (score_display/msd<3>)
-     LUT3:I0->O            1   0.205   0.580  score_display/Mmux_digit12_SW0 (N108)
+     LUT3:I0->O            1   0.205   0.580  score_display/Mmux_digit12_SW0 (N106)
      LUT6:I5->O            9   0.205   1.194  score_display/Mmux_digit12 (score_display/Mmux_digit12)
      LUT6:I0->O            7   0.203   1.118  score_display/Mmux_digit27 (score_display/digit<1>)
      LUT5:I0->O            1   0.203   0.579  score_display/Mram_SEGMENTS21 (SEGMENTS_2_OBUF)
@@ -1642,7 +1635,7 @@ Offset:              15.474ns (Levels of Logic = 17)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'inst_diviseur_clk/clk2khz'
   Total number of paths / destination ports: 120 / 11
 -------------------------------------------------------------------------
-Offset:              8.382ns (Levels of Logic = 5)
+Offset:              8.040ns (Levels of Logic = 5)
   Source:            score_display/cnt_dig_1 (FF)
   Destination:       SEGMENTS<7> (PAD)
   Source Clock:      inst_diviseur_clk/clk2khz rising
@@ -1653,46 +1646,18 @@ Offset:              8.382ns (Levels of Logic = 5)
     ----------------------------------------  ------------
      FD:C->Q              11   0.447   0.987  score_display/cnt_dig_1 (score_display/cnt_dig_1)
      LUT2:I0->O            1   0.203   0.944  score_display/Mmux_digit23 (score_display/Mmux_digit22)
-     LUT6:I0->O            1   0.203   0.924  score_display/Mmux_digit26 (score_display/Mmux_digit25)
-     LUT6:I1->O            7   0.203   1.118  score_display/Mmux_digit27 (score_display/digit<1>)
+     LUT6:I0->O            1   0.203   0.580  score_display/Mmux_digit26 (score_display/Mmux_digit25)
+     LUT6:I5->O            7   0.205   1.118  score_display/Mmux_digit27 (score_display/digit<1>)
      LUT5:I0->O            1   0.203   0.579  score_display/Mram_SEGMENTS21 (SEGMENTS_2_OBUF)
      OBUF:I->O                 2.571          SEGMENTS_2_OBUF (SEGMENTS<2>)
     ----------------------------------------
-    Total                      8.382ns (3.830ns logic, 4.551ns route)
-                                       (45.7% logic, 54.3% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_rgb_int/B_G'
-  Total number of paths / destination ports: 8 / 8
--------------------------------------------------------------------------
-Offset:              3.648ns (Levels of Logic = 1)
-  Source:            Inst_rgb_int/B_1 (LATCH)
-  Destination:       RGB<7> (PAD)
-  Source Clock:      Inst_rgb_int/B_G falling
-
-  Data Path: Inst_rgb_int/B_1 to RGB<7>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.498   0.579  Inst_rgb_int/B_1 (Inst_rgb_int/B_1)
-     OBUF:I->O                 2.571          RGB_7_OBUF (RGB<7>)
-    ----------------------------------------
-    Total                      3.648ns (3.069ns logic, 0.579ns route)
-                                       (84.1% logic, 15.9% route)
+    Total                      8.040ns (3.832ns logic, 4.207ns route)
+                                       (47.7% logic, 52.3% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
-
-Clock to Setup on destination clock Inst_rgb_int/B_G
--------------------------+---------+---------+---------+---------+
-                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
--------------------------+---------+---------+---------+---------+
-clkin                    |         |         |   20.905|         |
-inst_diviseur_clk/clk16hz|         |         |   16.945|         |
--------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clkin
 -------------------------+---------+---------+---------+---------+
@@ -1741,15 +1706,14 @@ keyboard/scancodeReady|    3.409|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 16.47 secs
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 17.46 secs
  
 --> 
 
-
-Total memory usage is 434968 kilobytes
+Total memory usage is 4572360 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  323 (   0 filtered)
+Number of warnings :  322 (   0 filtered)
 Number of infos    :    7 (   0 filtered)
 

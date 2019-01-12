@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sat Jan 12 02:22:26 2019
+// Written by: Map P.20131013 on Sat Jan 12 11:52:01 2019
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -269,8 +269,8 @@ PIN Inst_dcm1/dcm_sp_inst_pins<3> = BEL "Inst_dcm1/dcm_sp_inst" PINNAME CLKIN;
 TIMEGRP clkin = PIN "SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0>" PIN
         "Inst_dcm1/dcm_sp_inst_pins<3>";
 TS_clkin = PERIOD TIMEGRP "clkin" 10 ns HIGH 50%;
+TS_Inst_dcm1_clk0 = PERIOD TIMEGRP "Inst_dcm1_clk0" TS_clkin HIGH 50%;
 TS_Inst_dcm1_clkfx = PERIOD TIMEGRP "Inst_dcm1_clkfx" TS_clkin / 0.16 HIGH
         50%;
-TS_Inst_dcm1_clk0 = PERIOD TIMEGRP "Inst_dcm1_clk0" TS_clkin HIGH 50%;
 SCHEMATIC END;
 

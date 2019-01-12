@@ -236,10 +236,6 @@ signal after_play : std_logic := '0' ;
 signal clk100khz :std_logic;
 signal key_buffer : std_logic_vector(3 downto 0) := "0000";
 begin	
-		process(total_score)
-			begin
-				total_score <= score_n1+score_n2+score_n3+score_n4+score_n5+score_n6+score_n7+score_n8+score_n9+score_n10;
-			end process;
 			
 		RGB <= R&R&R & G&G&G & C&C;
 		Inst_rgb_int : set_RGB port map(
@@ -450,7 +446,8 @@ begin
 								when 7 => A<="1111111111111111111111111111111111000100110100011001111110111111";    
 								when 8 => A<="1111111111111111111111111111111111000001110111001100011111110111";    
 								when 9 => A<="1111111111111111111111111110001100001001111111011111110011111111";    
-								when others =>A<="1111111111111111111111111100000011011111110111111101111100011111";  
+								when others =>
+											 A<="1111111111111111111111111100000011011111110111111101111100011111";  
 							end case;
 						else 
 							-- On affiche qu'il a gagn  
@@ -461,5 +458,6 @@ begin
 		end process;
 		
 		Q_del <= shreg;
+		total_score <= score_n1+score_n2+score_n3+score_n4+score_n5+score_n6+score_n7+score_n8+score_n9+score_n10;
 		
 end Behavioral;

@@ -1,11 +1,12 @@
-Release 14.7 ngdbuild P.20131013 (lin64)
+Release 14.7 ngdbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
-ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p
+Command Line: F:\Programs\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc didact_top.ucf -p
 xc6slx16-csg324-3 didact_top.ngc didact_top.ngd
 
-Reading NGO file "/home/omega-coder/Projects/Maze_Game_VHDL/didact_top.ngc" ...
+Reading NGO file
+"F:/ProjectsDirectory/Embedded_Systems/Maze_Game_VHDL/didact_top.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -44,7 +45,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 403416 kilobytes
+Total memory usage is 4419412 kilobytes
 
 Writing NGD file "didact_top.ngd" ...
 Total REAL time to NGDBUILD completion:  3 sec

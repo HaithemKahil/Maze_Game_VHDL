@@ -1,4 +1,4 @@
-Release 14.7 Map P.20131013 (lin64)
+Release 14.7 Map P.20131013 (nt64)
 Xilinx Mapping Report File for Design 'didact_top'
 
 Design Information
@@ -10,37 +10,37 @@ Target Device  : xc6slx16
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sat Jan 12 02:22:15 2019
+Mapped Date    : Sat Jan 12 11:51:52 2019
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    1
+Number of warnings:    0
 Slice Logic Utilization:
   Number of Slice Registers:                   337 out of  18,224    1%
     Number used as Flip Flops:                 317
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:               20
-  Number of Slice LUTs:                        752 out of   9,112    8%
-    Number used as logic:                      747 out of   9,112    8%
-      Number using O6 output only:             556
+  Number of Slice LUTs:                        729 out of   9,112    8%
+    Number used as logic:                      726 out of   9,112    7%
+      Number using O6 output only:             534
       Number using O5 output only:              47
-      Number using O5 and O6:                  144
+      Number using O5 and O6:                  145
       Number used as ROM:                        0
     Number used as Memory:                       0 out of   2,176    0%
-    Number used exclusively as route-thrus:      5
-      Number with same-slice register load:      2
+    Number used exclusively as route-thrus:      3
+      Number with same-slice register load:      0
       Number with same-slice carry load:         3
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   286 out of   2,278   12%
+  Number of occupied Slices:                   276 out of   2,278   12%
   Number of MUXCYs used:                       108 out of   4,556    2%
-  Number of LUT Flip Flop pairs used:          814
-    Number with an unused Flip Flop:           484 out of     814   59%
-    Number with an unused LUT:                  62 out of     814    7%
-    Number of fully used LUT-FF pairs:         268 out of     814   32%
+  Number of LUT Flip Flop pairs used:          783
+    Number with an unused Flip Flop:           451 out of     783   57%
+    Number with an unused LUT:                  54 out of     783    6%
+    Number of fully used LUT-FF pairs:         278 out of     783   35%
     Number of unique control sets:              21
     Number of slice register sites lost
       to control set restrictions:              99 out of  18,224    1%
@@ -54,7 +54,6 @@ Slice Logic Distribution:
 IO Utilization:
   Number of bonded IOBs:                        38 out of     232   16%
     Number of LOCed IOBs:                       28 out of      38   73%
-    IOB Latches:                                 8
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -73,9 +72,7 @@ Specific Feature Utilization:
     Number used as DCM_CLKGENs:                  0
   Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
   Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
-  Number of OLOGIC2/OSERDES2s:                   8 out of     248    3%
-    Number used as OLOGIC2s:                     8
-    Number used as OSERDES2s:                    0
+  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
   Number of BSCANs:                              0 out of       4    0%
   Number of BUFHs:                               0 out of     128    0%
   Number of BUFPLLs:                             0 out of       8    0%
@@ -91,9 +88,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                4.15
 
-Peak Memory Usage:  682 MB
-Total REAL time to MAP completion:  11 secs 
-Total CPU time to MAP completion:   11 secs 
+Peak Memory Usage:  4562 MB
+Total REAL time to MAP completion:  8 secs 
+Total CPU time to MAP completion:   8 secs 
 
 Table of Contents
 -----------------
@@ -116,9 +113,6 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
-WARNING:PhysDesignRules:372 - Gated clock. Clock net Inst_rgb_int/B_G is sourced
-   by a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
 
 Section 3 - Informational
 -------------------------
@@ -191,14 +185,14 @@ Section 6 - IOB Properties
 | Q_del<5>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | Q_del<6>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | Q_del<7>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| RGB<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
-| RGB<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
-| RGB<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
-| RGB<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
-| RGB<4>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
-| RGB<5>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
-| RGB<6>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
-| RGB<7>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OLATCH       |          |          |
+| RGB<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| RGB<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| RGB<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| RGB<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| RGB<4>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| RGB<5>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| RGB<6>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| RGB<7>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | SEGMENTS<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | SEGMENTS<1>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | SEGMENTS<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
