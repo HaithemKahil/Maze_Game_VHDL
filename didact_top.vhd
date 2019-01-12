@@ -11,6 +11,10 @@ entity didact_top is Port (
 			 bouton2 : in STD_LOGIC;
 			 bouton3 : in STD_LOGIC;
 			 bouton4 : in STD_LOGIC;
+			 -- begin keyboard inputs
+			 kb_clk  : in STD_LOGIC;
+			 kb_data : in STD_LOGIC;
+			 -- end keyboard inputs
 				Q_del : inout STD_LOGIC_VECTOR (7 downto 0);
 			SEGMENTS :out STD_LOGIC_VECTOR (7 downto 0);
 			  DISP_EN:out STD_LOGIC_VECTOR (3 downto 0);
@@ -184,9 +188,9 @@ generic (
 		n : positive := 2 -- largeur du code de sortie
    );
 port(
-	D : in std_logic_vector(2 ** n - 1 downto 0); -- le bus d'entrée
+	D : in std_logic_vector(2 ** n - 1 downto 0); -- le bus d'entre
 	A : out std_logic_vector(n - 1 downto 0); -- le code de sortie
-	V : out std_logic -- '1' si au moins un signal d'entrée est actif
+	V : out std_logic -- '1' si au moins un signal d'entre est actif
   );
 end component ; 
 component ScoreDisplayModule is
@@ -195,6 +199,14 @@ component ScoreDisplayModule is
                   I_CLK : in std_logic;
                 DISP_EN : out std_logic_vector(3 downto 0);
                SEGMENTS : out std_logic_vector(7 downto 0));
+end component;
+
+component KeyboardMod is 
+	Port ( Clock : in STD_LOGIC;
+				  KeyboardClock : in  STD_LOGIC;
+				  KeyboardData : in  STD_LOGIC;
+				  kb_out : out std_logic_vector(3 downto 0)
+		);
 end component;
 
 signal clk_dcm1 : std_logic;
@@ -250,6 +262,14 @@ begin
 			HS => HS,
 			VIDEO_EN => video_en
 		);
+		
+		keyboard : KeyboardMod port map(Clock => clkin,
+			KeyboardClock => kb_clk,
+			KeyBoardData => kb_data,
+			kb_out => key_buffer
+		);
+		
+		
 		inst1_debounce: debounce_hdl port map(
 			sig_in => bouton1,
 			sig_out => debout(0),
@@ -392,7 +412,7 @@ begin
 			score =>score_n10
 		);
 		
-		-- Description de l’encodeur
+		-- Description de lencodeur
 		encodeur : encodeurP port map(
 		  D => debout, 
 		  A => b, 
@@ -407,7 +427,7 @@ begin
 						SEGMENTS =>SEGMENTS
 			);
 		
-		-- Description du registre à décalage
+		-- Description du registre  dcalage
 		xshifreg: process(rst,clk16hz)
 		begin
 				if(rst = '1')then
@@ -433,7 +453,7 @@ begin
 								when others =>A<="1111111111111111111111111100000011011111110111111101111100011111";  
 							end case;
 						else 
-							-- On affiche qu'il a gagné  
+							-- On affiche qu'il a gagn  
 							Niveau <= 0 ;
 						end if ; 
 					end if;
