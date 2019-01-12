@@ -1,8 +1,10 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sat Jan 12 11:52:01 2019
+// Written by: Map P.20131013 on Sat Jan 12 15:06:34 2019
 //! **************************************************************************
 
 SCHEMATIC START;
+COMP "HS" LOCATE = SITE "N6" LEVEL 1;
+COMP "VS" LOCATE = SITE "P7" LEVEL 1;
 COMP "rst" LOCATE = SITE "C9" LEVEL 1;
 COMP "Q_del<0>" LOCATE = SITE "U16" LEVEL 1;
 COMP "Q_del<1>" LOCATE = SITE "V16" LEVEL 1;
@@ -22,6 +24,14 @@ COMP "DISP_EN<0>" LOCATE = SITE "P17" LEVEL 1;
 COMP "DISP_EN<1>" LOCATE = SITE "P18" LEVEL 1;
 COMP "DISP_EN<2>" LOCATE = SITE "N15" LEVEL 1;
 COMP "DISP_EN<3>" LOCATE = SITE "N16" LEVEL 1;
+COMP "RGB<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "RGB<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "RGB<2>" LOCATE = SITE "P8" LEVEL 1;
+COMP "RGB<3>" LOCATE = SITE "T6" LEVEL 1;
+COMP "RGB<4>" LOCATE = SITE "V6" LEVEL 1;
+COMP "RGB<5>" LOCATE = SITE "U7" LEVEL 1;
+COMP "RGB<6>" LOCATE = SITE "V7" LEVEL 1;
+COMP "RGB<7>" LOCATE = SITE "N7" LEVEL 1;
 COMP "kb_clk" LOCATE = SITE "L12" LEVEL 1;
 COMP "SEGMENTS<0>" LOCATE = SITE "M13" LEVEL 1;
 COMP "SEGMENTS<1>" LOCATE = SITE "L14" LEVEL 1;
@@ -175,43 +185,7 @@ TIMEGRP Inst_dcm1_clkfx = BEL "Inst_dcm1/clkout1_buf" BEL
         "Inst_msa_hdl_Niveau8/etatsuiv_3" BEL
         "Inst_msa_hdl_Niveau8/etatsuiv_2" BEL
         "Inst_msa_hdl_Niveau8/etatsuiv_1" BEL
-        "Inst_msa_hdl_Niveau8/etatsuiv_0" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_7" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_6" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_5" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_4" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_3" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_2" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_1" BEL
-        "Inst_msa_hdl_Niveau9/tmp_score_0" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_4" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_3" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_2" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_1" BEL
-        "Inst_msa_hdl_Niveau9/etatpres_0" BEL
-        "Inst_msa_hdl_Niveau9/etatsuiv_4" BEL
-        "Inst_msa_hdl_Niveau9/etatsuiv_3" BEL
-        "Inst_msa_hdl_Niveau9/etatsuiv_2" BEL
-        "Inst_msa_hdl_Niveau9/etatsuiv_1" BEL
-        "Inst_msa_hdl_Niveau9/etatsuiv_0" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_7" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_6" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_5" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_4" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_3" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_2" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_1" BEL
-        "Inst_msa_hdl_Niveau10/tmp_score_0" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_4" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_3" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_2" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_1" BEL
-        "Inst_msa_hdl_Niveau10/etatpres_0" BEL
-        "Inst_msa_hdl_Niveau10/etatsuiv_4" BEL
-        "Inst_msa_hdl_Niveau10/etatsuiv_3" BEL
-        "Inst_msa_hdl_Niveau10/etatsuiv_2" BEL
-        "Inst_msa_hdl_Niveau10/etatsuiv_1" BEL
-        "Inst_msa_hdl_Niveau10/etatsuiv_0" BEL "inst_diviseur_clk/cnt16hz_18"
+        "Inst_msa_hdl_Niveau8/etatsuiv_0" BEL "inst_diviseur_clk/cnt16hz_18"
         BEL "inst_diviseur_clk/cnt16hz_17" BEL "inst_diviseur_clk/cnt16hz_16"
         BEL "inst_diviseur_clk/cnt16hz_15" BEL "inst_diviseur_clk/cnt16hz_14"
         BEL "inst_diviseur_clk/cnt16hz_13" BEL "inst_diviseur_clk/cnt16hz_12"
@@ -240,7 +214,8 @@ TIMEGRP Inst_dcm1_clkfx = BEL "Inst_dcm1/clkout1_buf" BEL
         "inst_diviseur_clk/cnt2khz_1" BEL "inst_diviseur_clk/cnt2khz_0" BEL
         "inst_diviseur_clk/clk16hz" BEL "inst_diviseur_clk/clk2hz" BEL
         "inst_diviseur_clk/clk2khz" BEL "inst_diviseur_clk/div2khz_temp" BEL
-        "inst_diviseur_clk/div16hz_temp" BEL "inst_diviseur_clk/div2hz_temp";
+        "inst_diviseur_clk/div16hz_temp" BEL "inst_diviseur_clk/div2hz_temp"
+        BEL "Inst_msa_hdl_Niveau1/enable_game";
 PIN SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1> = BEL
         "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1" PINNAME O;
 PIN Inst_dcm1/dcm_sp_inst_pins<1> = BEL "Inst_dcm1/dcm_sp_inst" PINNAME CLKFB;

@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/ProjectsDirectory/Embedded_Systems/Maze_Game_VHDL/didact_top.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/ProjectsDirectory/Embedded_Systems/Maze_Game_VHDL/msa_hdl.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

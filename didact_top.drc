@@ -1,18 +1,11 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Tue Jan 08 00:29:45 2019
+Sat Jan 12 15:07:18 2019
 
 drc -z didact_top.ncd didact_top.pcf
 
-WARNING:PhysDesignRules:372 - Gated clock. Clock net inst_diviseur_clk/clk2khz
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net inst_diviseur_clk/clk16hz
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
 INFO:PhysDesignRules:1861 - To achieve optimal frequency synthesis performance
    with the CLKFX and CLKFX180 outputs of the DCM comp Inst_dcm1/dcm_sp_inst,
    consult the device Data Sheet.
-DRC detected 0 errors and 2 warnings.  Please see the previously displayed
-individual error or warning messages for more details.
+DRC detected 0 errors and 0 warnings.

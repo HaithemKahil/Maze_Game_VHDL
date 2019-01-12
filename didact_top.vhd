@@ -77,7 +77,8 @@ component msa_hdl
 			b1 : in STD_LOGIC;
 			gs : in STD_LOGIC;
  enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0)
+		);
 end component;
 
 Component msa_hdl_2 is
@@ -87,7 +88,8 @@ Component msa_hdl_2 is
 				 b1 : in STD_LOGIC;
 				 gs : in STD_LOGIC;
 				 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 Component msa_hdl_3 is
@@ -97,7 +99,8 @@ Component msa_hdl_3 is
 		 b1 : in STD_LOGIC;
 		 gs : in STD_LOGIC;
 		 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 Component msa_hdl_4 is
@@ -107,7 +110,8 @@ Component msa_hdl_4 is
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
 	 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 Component msa_hdl_5 is
@@ -117,7 +121,8 @@ Component msa_hdl_5 is
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
 	 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 Component msa_hdl_6 is
@@ -127,7 +132,8 @@ Component msa_hdl_6 is
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
 	 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 Component msa_hdl_7 is
@@ -137,7 +143,8 @@ Component msa_hdl_7 is
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
 	 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 Component msa_hdl_8 is
@@ -147,7 +154,8 @@ Component msa_hdl_8 is
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
 	 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 Component msa_hdl_9 is
@@ -157,7 +165,8 @@ Component msa_hdl_9 is
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
 	 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 
@@ -168,7 +177,8 @@ Component msa_hdl_10 is
 	 b1 : in STD_LOGIC;
 	 gs : in STD_LOGIC;
 	 enable_del : out STD_LOGIC;
-		score : out std_logic_vector(7 downto 0));
+		score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end Component;
 
 
@@ -226,6 +236,7 @@ signal first_time : integer := 1 ;
 signal clk25 : std_logic := '0';
 signal total_score:std_logic_vector (7 downto 0) := "00000000" ;
 signal score_n1,score_n2,score_n3,score_n4,score_n5,score_n6,score_n7,score_n8,score_n9,score_n10:std_logic_vector (7 downto 0) := "00000000" ;
+signal enable_game:std_logic := '1';
 signal x_position, y_position : std_logic_vector(9 downto 0):=(others=>'0');  
 -- coordonn?es du pointeur
 signal video_en : std_logic;												
@@ -235,8 +246,10 @@ signal win : std_logic := '0';
 signal after_play : std_logic := '0' ;
 signal clk100khz :std_logic;
 signal key_buffer : std_logic_vector(3 downto 0) := "0000";
+signal switch_level : std_logic_vector(6 downto 0) := "0000000";
 begin	
-			
+		switch_level(6 downto 0) <= Q_del(6 downto 0);
+		A<="1111111111111111111111111100000011011111110111111101111100011111";
 		RGB <= R&R&R & G&G&G & C&C;
 		Inst_rgb_int : set_RGB port map(
 			Clk => clk2hz,
@@ -259,7 +272,7 @@ begin
 			VIDEO_EN => video_en
 		);
 		
-		keyboard : KeyboardMod port map(Clock => clkin,
+		keyboard : KeyboardMod port map(Clock => clk100khz,
 			KeyboardClock => kb_clk,
 			KeyBoardData => kb_data,
 			kb_out => key_buffer
@@ -318,7 +331,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(1),
-			score =>score_n2
+			score =>score_n2,
+			enable_game=>switch_level(0)
 		);
 		
 		
@@ -330,7 +344,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(2),
-			score =>score_n3
+			score =>score_n3,
+			enable_game=>switch_level(1)
 
 		);
 		
@@ -341,7 +356,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(3),
-			score =>score_n4
+			score =>score_n4,
+			enable_game=>switch_level(2)
 
 		);
 		
@@ -352,7 +368,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(4),
-			score =>score_n5
+			score =>score_n5,
+			enable_game=>switch_level(3)
 		);
 		
 		Inst_msa_hdl_Niveau6: msa_hdl_6 port map(
@@ -362,7 +379,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(9),
-			score =>score_n6
+			score =>score_n6,
+			enable_game=>switch_level(4)
 		);
 		
 		Inst_msa_hdl_Niveau7: msa_hdl_7 port map(
@@ -372,7 +390,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(5),
-			score =>score_n7
+			score =>score_n7,
+			enable_game=>switch_level(5)
 
 		);
 		
@@ -383,7 +402,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(7),
-			score =>score_n8
+			score =>score_n8,
+			enable_game=>switch_level(6)
 		);
 		
 		
@@ -394,7 +414,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(6),
-			score =>score_n9
+			score =>score_n9,
+			enable_game=>'0'
 		);
 		
 		
@@ -405,7 +426,8 @@ begin
 			b1 => b(1),
 			gs => gs,
 			enable_del => enable_del(8),
-			score =>score_n10
+			score =>score_n10,
+			enable_game=>'0'
 		);
 		
 		-- Description de lencodeur
@@ -446,8 +468,7 @@ begin
 								when 7 => A<="1111111111111111111111111111111111000100110100011001111110111111";    
 								when 8 => A<="1111111111111111111111111111111111000001110111001100011111110111";    
 								when 9 => A<="1111111111111111111111111110001100001001111111011111110011111111";    
-								when others =>
-											 A<="1111111111111111111111111100000011011111110111111101111100011111";  
+								when others =>A<="1111111111111111111111111100000011011111110111111101111100011111";  
 							end case;
 						else 
 							-- On affiche qu'il a gagn  

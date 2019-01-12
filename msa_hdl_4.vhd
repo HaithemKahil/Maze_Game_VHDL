@@ -11,12 +11,14 @@ entity msa_hdl_4 is
 					 b1 : in STD_LOGIC;
 					 gs : in STD_LOGIC;
 		  enable_del : out STD_LOGIC;
-				 score : out std_logic_vector(7 downto 0));
+				 score : out std_logic_vector(7 downto 0);
+				 enable_game :in std_logic
+				 );
 end msa_hdl_4;
 
 architecture Behavioral of msa_hdl_4 is
 
-type etat is (a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y);
+type etat is (a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z);
 signal etatpres, etatsuiv : etat;
 signal tmp_score: std_logic_vector(7 downto 0):="00000000";
 signal not_clkin :STD_LOGIC:=not clkin;
@@ -27,7 +29,7 @@ begin
 xreg: process(rst,clkin)
 		begin
 			if(rst = '1')then
-				etatpres <= a;	
+				etatpres <= a;
 			elsif(rising_edge(clkin))then
 				etatpres <= etatsuiv;
 			end if;
@@ -35,8 +37,8 @@ xreg: process(rst,clkin)
 		--IFL
 xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 		begin
-			if(rising_edge(not_clkin)) then
-				if(rst = '1') then tmp_score <= "00000000";end if;
+			if(rst = '1') then tmp_score <= "00000000";end if;
+			if(rising_edge(not_clkin)and enable_game = '1') then
 				case etatpres is
 				-- iteration aller à droite 
 					when a =>
@@ -294,8 +296,15 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 						else
 							etatsuiv <= x;
 						end if;
-					when y =>
-						etatsuiv <= y;
+					when y=>
+						if(gs = '0')then
+							etatsuiv <= z;
+				--
+						else
+							etatsuiv <= y;
+						end if;
+					when z =>
+						etatsuiv <= z;
 					when others => etatsuiv <= a;tmp_score<="00000000";
 				end case;
 			end if;
@@ -303,7 +312,7 @@ end process;
 
 --OFL
 score<=tmp_score;
-enable_del <= '1' when etatpres = y else '0';
+enable_del <= '1' when etatpres = z else '0';
 
 end Behavioral;
 

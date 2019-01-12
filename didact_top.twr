@@ -68,19 +68,19 @@ Timing constraint: TS_Inst_dcm1_clk0 = PERIOD TIMEGRP "Inst_dcm1_clk0" TS_clkin
 HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 923 paths analyzed, 154 endpoints analyzed, 0 failing endpoints
+ 896 paths analyzed, 154 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   4.904ns.
+ Minimum period is   4.432ns.
 --------------------------------------------------------------------------------
 
-Paths for end point Inst_vga_int/x_count_8 (SLICE_X15Y20.CX), 47 paths
+Paths for end point Inst_vga_int/x_count_8 (SLICE_X6Y20.CX), 47 paths
 --------------------------------------------------------------------------------
-Slack (setup path):     5.096ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/x_count_1_1 (FF)
+Slack (setup path):     5.568ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_4 (FF)
   Destination:          Inst_vga_int/x_count_8 (FF)
   Requirement:          10.000ns
-  Data Path Delay:      4.758ns (Levels of Logic = 4)
-  Clock Path Skew:      -0.011ns (0.149 - 0.160)
+  Data Path Delay:      4.285ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.012ns (0.149 - 0.161)
   Source Clock:         clk100khz rising at 0.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.135ns
@@ -91,80 +91,38 @@ Slack (setup path):     5.096ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.200ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_1_1 to Inst_vga_int/x_count_8
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_4 to Inst_vga_int/x_count_8
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X14Y19.AQ      Tcko                  0.447   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/x_count_1_1
-    SLICE_X14Y19.C4      net (fanout=2)        0.874   Inst_vga_int/x_count_1_1
-    SLICE_X14Y19.C       Tilo                  0.204   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW2
-    SLICE_X14Y18.B1      net (fanout=1)        0.626   N125
-    SLICE_X14Y18.B       Tilo                  0.203   Inst_vga_int/h_state_FSM_FFd2
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_4_o<9>1
-    SLICE_X15Y18.C1      net (fanout=4)        0.541   Inst_vga_int/GND_140_o_x_count[9]_equal_4_o
-    SLICE_X15Y18.C       Tilo                  0.259   Inst_vga_int/x_count<4>
+    SLICE_X6Y19.DQ       Tcko                  0.447   Inst_vga_int/x_count<4>
+                                                       Inst_vga_int/x_count_4
+    SLICE_X7Y20.B2       net (fanout=19)       0.643   Inst_vga_int/x_count<4>
+    SLICE_X7Y20.B        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>121
+    SLICE_X7Y20.A2       net (fanout=5)        0.776   Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>12
+    SLICE_X7Y20.A        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o<9>1
+    SLICE_X6Y19.C4       net (fanout=4)        0.445   Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o
+    SLICE_X6Y19.C        Tilo                  0.204   Inst_vga_int/x_count<4>
                                                        Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
-    SLICE_X14Y20.D5      net (fanout=6)        0.414   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
-    SLICE_X14Y20.D       Tilo                  0.203   Inst_vga_int/x_count_8_1
+    SLICE_X4Y20.D5       net (fanout=6)        0.431   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
+    SLICE_X4Y20.D        Tilo                  0.205   Inst_vga_int/x_count_8_1
                                                        Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT91
-    SLICE_X15Y20.CX      net (fanout=1)        0.924   Inst_vga_int/h_state[1]_x_count[9]_wide_mux_19_OUT<8>
-    SLICE_X15Y20.CLK     Tdick                 0.063   Inst_vga_int/x_count<7>
+    SLICE_X6Y20.CX       net (fanout=1)        0.530   Inst_vga_int/h_state[1]_x_count[9]_wide_mux_19_OUT<8>
+    SLICE_X6Y20.CLK      Tdick                 0.086   Inst_vga_int/x_count<7>
                                                        Inst_vga_int/x_count_8
     -------------------------------------------------  ---------------------------
-    Total                                      4.758ns (1.379ns logic, 3.379ns route)
-                                                       (29.0% logic, 71.0% route)
+    Total                                      4.285ns (1.460ns logic, 2.825ns route)
+                                                       (34.1% logic, 65.9% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     5.419ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/x_count_6 (FF)
-  Destination:          Inst_vga_int/x_count_8 (FF)
-  Requirement:          10.000ns
-  Data Path Delay:      4.446ns (Levels of Logic = 4)
-  Clock Path Skew:      0.000ns
-  Source Clock:         clk100khz rising at 0.000ns
-  Destination Clock:    clk100khz rising at 10.000ns
-  Clock Uncertainty:    0.135ns
-
-  Clock Uncertainty:          0.135ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.200ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_6 to Inst_vga_int/x_count_8
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X15Y20.BQ      Tcko                  0.391   Inst_vga_int/x_count<7>
-                                                       Inst_vga_int/x_count_6
-    SLICE_X14Y19.C2      net (fanout=22)       0.618   Inst_vga_int/x_count<6>
-    SLICE_X14Y19.C       Tilo                  0.204   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW2
-    SLICE_X14Y18.B1      net (fanout=1)        0.626   N125
-    SLICE_X14Y18.B       Tilo                  0.203   Inst_vga_int/h_state_FSM_FFd2
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_4_o<9>1
-    SLICE_X15Y18.C1      net (fanout=4)        0.541   Inst_vga_int/GND_140_o_x_count[9]_equal_4_o
-    SLICE_X15Y18.C       Tilo                  0.259   Inst_vga_int/x_count<4>
-                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
-    SLICE_X14Y20.D5      net (fanout=6)        0.414   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
-    SLICE_X14Y20.D       Tilo                  0.203   Inst_vga_int/x_count_8_1
-                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT91
-    SLICE_X15Y20.CX      net (fanout=1)        0.924   Inst_vga_int/h_state[1]_x_count[9]_wide_mux_19_OUT<8>
-    SLICE_X15Y20.CLK     Tdick                 0.063   Inst_vga_int/x_count<7>
-                                                       Inst_vga_int/x_count_8
-    -------------------------------------------------  ---------------------------
-    Total                                      4.446ns (1.323ns logic, 3.123ns route)
-                                                       (29.8% logic, 70.2% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     5.450ns (requirement - (data path - clock path skew + uncertainty))
+Slack (setup path):     5.687ns (requirement - (data path - clock path skew + uncertainty))
   Source:               Inst_vga_int/x_count_0 (FF)
   Destination:          Inst_vga_int/x_count_8 (FF)
   Requirement:          10.000ns
-  Data Path Delay:      4.406ns (Levels of Logic = 4)
-  Clock Path Skew:      -0.009ns (0.246 - 0.255)
+  Data Path Delay:      4.161ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.017ns (0.274 - 0.291)
   Source Clock:         clk100khz rising at 0.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.135ns
@@ -179,37 +137,34 @@ Slack (setup path):     5.450ns (requirement - (data path - clock path skew + un
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X16Y20.AQ      Tcko                  0.408   Inst_vga_int/x_count<2>
+    SLICE_X5Y20.AQ       Tcko                  0.391   Inst_vga_int/x_count<2>
                                                        Inst_vga_int/x_count_0
-    SLICE_X14Y19.C3      net (fanout=15)       0.561   Inst_vga_int/x_count<0>
-    SLICE_X14Y19.C       Tilo                  0.204   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW2
-    SLICE_X14Y18.B1      net (fanout=1)        0.626   N125
-    SLICE_X14Y18.B       Tilo                  0.203   Inst_vga_int/h_state_FSM_FFd2
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_4_o<9>1
-    SLICE_X15Y18.C1      net (fanout=4)        0.541   Inst_vga_int/GND_140_o_x_count[9]_equal_4_o
-    SLICE_X15Y18.C       Tilo                  0.259   Inst_vga_int/x_count<4>
+    SLICE_X5Y20.D2       net (fanout=15)       0.635   Inst_vga_int/x_count<0>
+    SLICE_X5Y20.D        Tilo                  0.259   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW1
+    SLICE_X4Y20.A3       net (fanout=1)        0.694   N110
+    SLICE_X4Y20.A        Tilo                  0.205   Inst_vga_int/x_count_8_1
+                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>21
+    SLICE_X6Y19.C3       net (fanout=4)        0.521   Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>2
+    SLICE_X6Y19.C        Tilo                  0.204   Inst_vga_int/x_count<4>
                                                        Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
-    SLICE_X14Y20.D5      net (fanout=6)        0.414   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
-    SLICE_X14Y20.D       Tilo                  0.203   Inst_vga_int/x_count_8_1
+    SLICE_X4Y20.D5       net (fanout=6)        0.431   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
+    SLICE_X4Y20.D        Tilo                  0.205   Inst_vga_int/x_count_8_1
                                                        Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT91
-    SLICE_X15Y20.CX      net (fanout=1)        0.924   Inst_vga_int/h_state[1]_x_count[9]_wide_mux_19_OUT<8>
-    SLICE_X15Y20.CLK     Tdick                 0.063   Inst_vga_int/x_count<7>
+    SLICE_X6Y20.CX       net (fanout=1)        0.530   Inst_vga_int/h_state[1]_x_count[9]_wide_mux_19_OUT<8>
+    SLICE_X6Y20.CLK      Tdick                 0.086   Inst_vga_int/x_count<7>
                                                        Inst_vga_int/x_count_8
     -------------------------------------------------  ---------------------------
-    Total                                      4.406ns (1.340ns logic, 3.066ns route)
-                                                       (30.4% logic, 69.6% route)
+    Total                                      4.161ns (1.350ns logic, 2.811ns route)
+                                                       (32.4% logic, 67.6% route)
 
 --------------------------------------------------------------------------------
-
-Paths for end point Inst_vga_int/x_count_7 (SLICE_X15Y20.D1), 32 paths
---------------------------------------------------------------------------------
-Slack (setup path):     5.697ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/x_count_1_1 (FF)
-  Destination:          Inst_vga_int/x_count_7 (FF)
+Slack (setup path):     5.692ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_0 (FF)
+  Destination:          Inst_vga_int/x_count_8 (FF)
   Requirement:          10.000ns
-  Data Path Delay:      4.157ns (Levels of Logic = 4)
-  Clock Path Skew:      -0.011ns (0.149 - 0.160)
+  Data Path Delay:      4.156ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.017ns (0.274 - 0.291)
   Source Clock:         clk100khz rising at 0.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.135ns
@@ -220,35 +175,80 @@ Slack (setup path):     5.697ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.200ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_1_1 to Inst_vga_int/x_count_7
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_0 to Inst_vga_int/x_count_8
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X14Y19.AQ      Tcko                  0.447   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/x_count_1_1
-    SLICE_X14Y19.C4      net (fanout=2)        0.874   Inst_vga_int/x_count_1_1
-    SLICE_X14Y19.C       Tilo                  0.204   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW2
-    SLICE_X14Y18.B1      net (fanout=1)        0.626   N125
-    SLICE_X14Y18.B       Tilo                  0.203   Inst_vga_int/h_state_FSM_FFd2
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_4_o<9>1
-    SLICE_X15Y18.C1      net (fanout=4)        0.541   Inst_vga_int/GND_140_o_x_count[9]_equal_4_o
-    SLICE_X15Y18.C       Tilo                  0.259   Inst_vga_int/x_count<4>
+    SLICE_X5Y20.AQ       Tcko                  0.391   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/x_count_0
+    SLICE_X7Y20.B4       net (fanout=15)       0.570   Inst_vga_int/x_count<0>
+    SLICE_X7Y20.B        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>121
+    SLICE_X7Y20.A2       net (fanout=5)        0.776   Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>12
+    SLICE_X7Y20.A        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o<9>1
+    SLICE_X6Y19.C4       net (fanout=4)        0.445   Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o
+    SLICE_X6Y19.C        Tilo                  0.204   Inst_vga_int/x_count<4>
                                                        Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
-    SLICE_X15Y20.D1      net (fanout=6)        0.681   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
-    SLICE_X15Y20.CLK     Tas                   0.322   Inst_vga_int/x_count<7>
-                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT81
-                                                       Inst_vga_int/x_count_7
+    SLICE_X4Y20.D5       net (fanout=6)        0.431   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
+    SLICE_X4Y20.D        Tilo                  0.205   Inst_vga_int/x_count_8_1
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT91
+    SLICE_X6Y20.CX       net (fanout=1)        0.530   Inst_vga_int/h_state[1]_x_count[9]_wide_mux_19_OUT<8>
+    SLICE_X6Y20.CLK      Tdick                 0.086   Inst_vga_int/x_count<7>
+                                                       Inst_vga_int/x_count_8
     -------------------------------------------------  ---------------------------
-    Total                                      4.157ns (1.435ns logic, 2.722ns route)
-                                                       (34.5% logic, 65.5% route)
+    Total                                      4.156ns (1.404ns logic, 2.752ns route)
+                                                       (33.8% logic, 66.2% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     6.020ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/x_count_6 (FF)
-  Destination:          Inst_vga_int/x_count_7 (FF)
+
+Paths for end point Inst_vga_int/x_count_2 (SLICE_X5Y20.C2), 22 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     5.897ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_4 (FF)
+  Destination:          Inst_vga_int/x_count_2 (FF)
   Requirement:          10.000ns
-  Data Path Delay:      3.845ns (Levels of Logic = 4)
+  Data Path Delay:      3.954ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.014ns (0.277 - 0.291)
+  Source Clock:         clk100khz rising at 0.000ns
+  Destination Clock:    clk100khz rising at 10.000ns
+  Clock Uncertainty:    0.135ns
+
+  Clock Uncertainty:          0.135ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.200ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_4 to Inst_vga_int/x_count_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y19.DQ       Tcko                  0.447   Inst_vga_int/x_count<4>
+                                                       Inst_vga_int/x_count_4
+    SLICE_X7Y20.B2       net (fanout=19)       0.643   Inst_vga_int/x_count<4>
+    SLICE_X7Y20.B        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>121
+    SLICE_X7Y20.A2       net (fanout=5)        0.776   Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>12
+    SLICE_X7Y20.A        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o<9>1
+    SLICE_X6Y20.C3       net (fanout=4)        0.317   Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o
+    SLICE_X6Y20.C        Tilo                  0.204   Inst_vga_int/x_count<7>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT71_SW1
+    SLICE_X5Y20.C2       net (fanout=2)        0.727   N125
+    SLICE_X5Y20.CLK      Tas                   0.322   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT31
+                                                       Inst_vga_int/x_count_2
+    -------------------------------------------------  ---------------------------
+    Total                                      3.954ns (1.491ns logic, 2.463ns route)
+                                                       (37.7% logic, 62.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.961ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_0 (FF)
+  Destination:          Inst_vga_int/x_count_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.904ns (Levels of Logic = 4)
   Clock Path Skew:      0.000ns
   Source Clock:         clk100khz rising at 0.000ns
   Destination Clock:    clk100khz rising at 10.000ns
@@ -260,79 +260,119 @@ Slack (setup path):     6.020ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.200ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_6 to Inst_vga_int/x_count_7
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_0 to Inst_vga_int/x_count_2
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X15Y20.BQ      Tcko                  0.391   Inst_vga_int/x_count<7>
-                                                       Inst_vga_int/x_count_6
-    SLICE_X14Y19.C2      net (fanout=22)       0.618   Inst_vga_int/x_count<6>
-    SLICE_X14Y19.C       Tilo                  0.204   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW2
-    SLICE_X14Y18.B1      net (fanout=1)        0.626   N125
-    SLICE_X14Y18.B       Tilo                  0.203   Inst_vga_int/h_state_FSM_FFd2
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_4_o<9>1
-    SLICE_X15Y18.C1      net (fanout=4)        0.541   Inst_vga_int/GND_140_o_x_count[9]_equal_4_o
-    SLICE_X15Y18.C       Tilo                  0.259   Inst_vga_int/x_count<4>
-                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
-    SLICE_X15Y20.D1      net (fanout=6)        0.681   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
-    SLICE_X15Y20.CLK     Tas                   0.322   Inst_vga_int/x_count<7>
-                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT81
-                                                       Inst_vga_int/x_count_7
-    -------------------------------------------------  ---------------------------
-    Total                                      3.845ns (1.379ns logic, 2.466ns route)
-                                                       (35.9% logic, 64.1% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     6.051ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/x_count_0 (FF)
-  Destination:          Inst_vga_int/x_count_7 (FF)
-  Requirement:          10.000ns
-  Data Path Delay:      3.805ns (Levels of Logic = 4)
-  Clock Path Skew:      -0.009ns (0.246 - 0.255)
-  Source Clock:         clk100khz rising at 0.000ns
-  Destination Clock:    clk100khz rising at 10.000ns
-  Clock Uncertainty:    0.135ns
-
-  Clock Uncertainty:          0.135ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.200ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_0 to Inst_vga_int/x_count_7
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X16Y20.AQ      Tcko                  0.408   Inst_vga_int/x_count<2>
+    SLICE_X5Y20.AQ       Tcko                  0.391   Inst_vga_int/x_count<2>
                                                        Inst_vga_int/x_count_0
-    SLICE_X14Y19.C3      net (fanout=15)       0.561   Inst_vga_int/x_count<0>
-    SLICE_X14Y19.C       Tilo                  0.204   Inst_vga_int/x_count_1_1
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW2
-    SLICE_X14Y18.B1      net (fanout=1)        0.626   N125
-    SLICE_X14Y18.B       Tilo                  0.203   Inst_vga_int/h_state_FSM_FFd2
-                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_4_o<9>1
-    SLICE_X15Y18.C1      net (fanout=4)        0.541   Inst_vga_int/GND_140_o_x_count[9]_equal_4_o
-    SLICE_X15Y18.C       Tilo                  0.259   Inst_vga_int/x_count<4>
+    SLICE_X5Y20.D2       net (fanout=15)       0.635   Inst_vga_int/x_count<0>
+    SLICE_X5Y20.D        Tilo                  0.259   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW1
+    SLICE_X4Y20.A3       net (fanout=1)        0.694   N110
+    SLICE_X4Y20.A        Tilo                  0.205   Inst_vga_int/x_count_8_1
+                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>21
+    SLICE_X6Y20.C4       net (fanout=4)        0.467   Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>2
+    SLICE_X6Y20.C        Tilo                  0.204   Inst_vga_int/x_count<7>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT71_SW1
+    SLICE_X5Y20.C2       net (fanout=2)        0.727   N125
+    SLICE_X5Y20.CLK      Tas                   0.322   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT31
+                                                       Inst_vga_int/x_count_2
+    -------------------------------------------------  ---------------------------
+    Total                                      3.904ns (1.381ns logic, 2.523ns route)
+                                                       (35.4% logic, 64.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     6.040ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_0 (FF)
+  Destination:          Inst_vga_int/x_count_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.825ns (Levels of Logic = 4)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk100khz rising at 0.000ns
+  Destination Clock:    clk100khz rising at 10.000ns
+  Clock Uncertainty:    0.135ns
+
+  Clock Uncertainty:          0.135ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.200ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_0 to Inst_vga_int/x_count_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y20.AQ       Tcko                  0.391   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/x_count_0
+    SLICE_X7Y20.B4       net (fanout=15)       0.570   Inst_vga_int/x_count<0>
+    SLICE_X7Y20.B        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>121
+    SLICE_X7Y20.A2       net (fanout=5)        0.776   Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>12
+    SLICE_X7Y20.A        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o<9>1
+    SLICE_X6Y20.C3       net (fanout=4)        0.317   Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o
+    SLICE_X6Y20.C        Tilo                  0.204   Inst_vga_int/x_count<7>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT71_SW1
+    SLICE_X5Y20.C2       net (fanout=2)        0.727   N125
+    SLICE_X5Y20.CLK      Tas                   0.322   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT31
+                                                       Inst_vga_int/x_count_2
+    -------------------------------------------------  ---------------------------
+    Total                                      3.825ns (1.435ns logic, 2.390ns route)
+                                                       (37.5% logic, 62.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_vga_int/x_count_9 (SLICE_X4Y20.C4), 32 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     5.904ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_4 (FF)
+  Destination:          Inst_vga_int/x_count_9 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.947ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.014ns (0.277 - 0.291)
+  Source Clock:         clk100khz rising at 0.000ns
+  Destination Clock:    clk100khz rising at 10.000ns
+  Clock Uncertainty:    0.135ns
+
+  Clock Uncertainty:          0.135ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.200ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_4 to Inst_vga_int/x_count_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y19.DQ       Tcko                  0.447   Inst_vga_int/x_count<4>
+                                                       Inst_vga_int/x_count_4
+    SLICE_X7Y20.B2       net (fanout=19)       0.643   Inst_vga_int/x_count<4>
+    SLICE_X7Y20.B        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>121
+    SLICE_X7Y20.A2       net (fanout=5)        0.776   Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>12
+    SLICE_X7Y20.A        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o<9>1
+    SLICE_X6Y19.C4       net (fanout=4)        0.445   Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o
+    SLICE_X6Y19.C        Tilo                  0.204   Inst_vga_int/x_count<4>
                                                        Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
-    SLICE_X15Y20.D1      net (fanout=6)        0.681   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
-    SLICE_X15Y20.CLK     Tas                   0.322   Inst_vga_int/x_count<7>
-                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT81
-                                                       Inst_vga_int/x_count_7
+    SLICE_X4Y20.C4       net (fanout=6)        0.573   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
+    SLICE_X4Y20.CLK      Tas                   0.341   Inst_vga_int/x_count_8_1
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT10
+                                                       Inst_vga_int/x_count_9
     -------------------------------------------------  ---------------------------
-    Total                                      3.805ns (1.396ns logic, 2.409ns route)
-                                                       (36.7% logic, 63.3% route)
+    Total                                      3.947ns (1.510ns logic, 2.437ns route)
+                                                       (38.3% logic, 61.7% route)
 
 --------------------------------------------------------------------------------
-
-Paths for end point Inst_vga_int/v_state_FSM_FFd2 (SLICE_X27Y9.B2), 9 paths
---------------------------------------------------------------------------------
-Slack (setup path):     5.790ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/y_count_3 (FF)
-  Destination:          Inst_vga_int/v_state_FSM_FFd2 (FF)
+Slack (setup path):     6.033ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_0 (FF)
+  Destination:          Inst_vga_int/x_count_9 (FF)
   Requirement:          10.000ns
-  Data Path Delay:      4.054ns (Levels of Logic = 3)
-  Clock Path Skew:      -0.021ns (0.255 - 0.276)
+  Data Path Delay:      3.823ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.009ns (0.149 - 0.158)
   Source Clock:         clk100khz rising at 0.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.135ns
@@ -343,33 +383,36 @@ Slack (setup path):     5.790ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.200ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/y_count_3 to Inst_vga_int/v_state_FSM_FFd2
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_0 to Inst_vga_int/x_count_9
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X29Y9.CMUX     Tshcko                0.461   N86
-                                                       Inst_vga_int/y_count_3
-    SLICE_X29Y9.A1       net (fanout=19)       0.676   Inst_vga_int/y_count<3>
-    SLICE_X29Y9.A        Tilo                  0.259   N86
-                                                       Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<4>111
-    SLICE_X29Y9.B1       net (fanout=8)        1.113   Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<4>11
-    SLICE_X29Y9.B        Tilo                  0.259   N86
-                                                       Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<9>121
-    SLICE_X27Y9.B2       net (fanout=2)        0.964   Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<9>12
-    SLICE_X27Y9.CLK      Tas                   0.322   Inst_vga_int/v_state_FSM_FFd2
-                                                       Inst_vga_int/v_state_FSM_FFd2-In
-                                                       Inst_vga_int/v_state_FSM_FFd2
+    SLICE_X5Y20.AQ       Tcko                  0.391   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/x_count_0
+    SLICE_X5Y20.D2       net (fanout=15)       0.635   Inst_vga_int/x_count<0>
+    SLICE_X5Y20.D        Tilo                  0.259   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>1_SW1
+    SLICE_X4Y20.A3       net (fanout=1)        0.694   N110
+    SLICE_X4Y20.A        Tilo                  0.205   Inst_vga_int/x_count_8_1
+                                                       Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>21
+    SLICE_X6Y19.C3       net (fanout=4)        0.521   Inst_vga_int/GND_140_o_x_count[9]_equal_16_o<9>2
+    SLICE_X6Y19.C        Tilo                  0.204   Inst_vga_int/x_count<4>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
+    SLICE_X4Y20.C4       net (fanout=6)        0.573   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
+    SLICE_X4Y20.CLK      Tas                   0.341   Inst_vga_int/x_count_8_1
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT10
+                                                       Inst_vga_int/x_count_9
     -------------------------------------------------  ---------------------------
-    Total                                      4.054ns (1.301ns logic, 2.753ns route)
-                                                       (32.1% logic, 67.9% route)
+    Total                                      3.823ns (1.400ns logic, 2.423ns route)
+                                                       (36.6% logic, 63.4% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     5.887ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/y_count_2 (FF)
-  Destination:          Inst_vga_int/v_state_FSM_FFd2 (FF)
+Slack (setup path):     6.038ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_vga_int/x_count_0 (FF)
+  Destination:          Inst_vga_int/x_count_9 (FF)
   Requirement:          10.000ns
-  Data Path Delay:      3.955ns (Levels of Logic = 3)
-  Clock Path Skew:      -0.023ns (0.255 - 0.278)
+  Data Path Delay:      3.818ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.009ns (0.149 - 0.158)
   Source Clock:         clk100khz rising at 0.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.135ns
@@ -380,147 +423,112 @@ Slack (setup path):     5.887ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.200ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/y_count_2 to Inst_vga_int/v_state_FSM_FFd2
+  Maximum Data Path at Slow Process Corner: Inst_vga_int/x_count_0 to Inst_vga_int/x_count_9
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X29Y10.CQ      Tcko                  0.391   Inst_vga_int/y_count<4>
-                                                       Inst_vga_int/y_count_2
-    SLICE_X29Y9.A2       net (fanout=18)       0.647   Inst_vga_int/y_count<2>
-    SLICE_X29Y9.A        Tilo                  0.259   N86
-                                                       Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<4>111
-    SLICE_X29Y9.B1       net (fanout=8)        1.113   Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<4>11
-    SLICE_X29Y9.B        Tilo                  0.259   N86
-                                                       Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<9>121
-    SLICE_X27Y9.B2       net (fanout=2)        0.964   Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<9>12
-    SLICE_X27Y9.CLK      Tas                   0.322   Inst_vga_int/v_state_FSM_FFd2
-                                                       Inst_vga_int/v_state_FSM_FFd2-In
-                                                       Inst_vga_int/v_state_FSM_FFd2
+    SLICE_X5Y20.AQ       Tcko                  0.391   Inst_vga_int/x_count<2>
+                                                       Inst_vga_int/x_count_0
+    SLICE_X7Y20.B4       net (fanout=15)       0.570   Inst_vga_int/x_count<0>
+    SLICE_X7Y20.B        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>121
+    SLICE_X7Y20.A2       net (fanout=5)        0.776   Inst_vga_int/Madd_x_count[9]_GND_140_o_add_16_OUT_xor<6>12
+    SLICE_X7Y20.A        Tilo                  0.259   Inst_vga_int/x_count_1_1
+                                                       Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o<9>1
+    SLICE_X6Y19.C4       net (fanout=4)        0.445   Inst_vga_int/PWR_9_o_x_count[9]_equal_12_o
+    SLICE_X6Y19.C        Tilo                  0.204   Inst_vga_int/x_count<4>
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT411
+    SLICE_X4Y20.C4       net (fanout=6)        0.573   Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT41
+    SLICE_X4Y20.CLK      Tas                   0.341   Inst_vga_int/x_count_8_1
+                                                       Inst_vga_int/Mmux_h_state[1]_x_count[9]_wide_mux_19_OUT10
+                                                       Inst_vga_int/x_count_9
     -------------------------------------------------  ---------------------------
-    Total                                      3.955ns (1.231ns logic, 2.724ns route)
-                                                       (31.1% logic, 68.9% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     6.035ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_vga_int/y_count_1 (FF)
-  Destination:          Inst_vga_int/v_state_FSM_FFd2 (FF)
-  Requirement:          10.000ns
-  Data Path Delay:      3.807ns (Levels of Logic = 3)
-  Clock Path Skew:      -0.023ns (0.255 - 0.278)
-  Source Clock:         clk100khz rising at 0.000ns
-  Destination Clock:    clk100khz rising at 10.000ns
-  Clock Uncertainty:    0.135ns
-
-  Clock Uncertainty:          0.135ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.200ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: Inst_vga_int/y_count_1 to Inst_vga_int/v_state_FSM_FFd2
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X29Y10.BQ      Tcko                  0.391   Inst_vga_int/y_count<4>
-                                                       Inst_vga_int/y_count_1
-    SLICE_X29Y9.A3       net (fanout=16)       0.499   Inst_vga_int/y_count<1>
-    SLICE_X29Y9.A        Tilo                  0.259   N86
-                                                       Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<4>111
-    SLICE_X29Y9.B1       net (fanout=8)        1.113   Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<4>11
-    SLICE_X29Y9.B        Tilo                  0.259   N86
-                                                       Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<9>121
-    SLICE_X27Y9.B2       net (fanout=2)        0.964   Inst_vga_int/Madd_y_count[9]_GND_140_o_add_39_OUT_xor<9>12
-    SLICE_X27Y9.CLK      Tas                   0.322   Inst_vga_int/v_state_FSM_FFd2
-                                                       Inst_vga_int/v_state_FSM_FFd2-In
-                                                       Inst_vga_int/v_state_FSM_FFd2
-    -------------------------------------------------  ---------------------------
-    Total                                      3.807ns (1.231ns logic, 2.576ns route)
-                                                       (32.3% logic, 67.7% route)
+    Total                                      3.818ns (1.454ns logic, 2.364ns route)
+                                                       (38.1% logic, 61.9% route)
 
 --------------------------------------------------------------------------------
 
 Hold Paths: TS_Inst_dcm1_clk0 = PERIOD TIMEGRP "Inst_dcm1_clk0" TS_clkin HIGH 50%;
 --------------------------------------------------------------------------------
 
-Paths for end point Inst_vga_int/x_count_8_1 (SLICE_X14Y20.CE), 1 path
+Paths for end point Inst_vga_int/y_count_9 (SLICE_X6Y15.CE), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.396ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               Inst_vga_int/en_25 (FF)
-  Destination:          Inst_vga_int/x_count_8_1 (FF)
+Slack (hold path):      0.386ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_vga_int/line_en (FF)
+  Destination:          Inst_vga_int/y_count_9 (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.390ns (Levels of Logic = 0)
-  Clock Path Skew:      -0.006ns (0.080 - 0.086)
+  Data Path Delay:      0.391ns (Levels of Logic = 0)
+  Clock Path Skew:      0.005ns (0.152 - 0.147)
   Source Clock:         clk100khz rising at 10.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path at Fast Process Corner: Inst_vga_int/en_25 to Inst_vga_int/x_count_8_1
+  Minimum Data Path at Fast Process Corner: Inst_vga_int/line_en to Inst_vga_int/y_count_9
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X9Y22.AQ       Tcko                  0.198   Inst_vga_int/en_25
-                                                       Inst_vga_int/en_25
-    SLICE_X14Y20.CE      net (fanout=7)        0.300   Inst_vga_int/en_25
-    SLICE_X14Y20.CLK     Tckce       (-Th)     0.108   Inst_vga_int/x_count_8_1
-                                                       Inst_vga_int/x_count_8_1
+    SLICE_X6Y16.DQ       Tcko                  0.234   Inst_vga_int/line_en
+                                                       Inst_vga_int/line_en
+    SLICE_X6Y15.CE       net (fanout=6)        0.261   Inst_vga_int/line_en
+    SLICE_X6Y15.CLK      Tckce       (-Th)     0.104   Inst_vga_int/y_count<9>
+                                                       Inst_vga_int/y_count_9
     -------------------------------------------------  ---------------------------
-    Total                                      0.390ns (0.090ns logic, 0.300ns route)
-                                                       (23.1% logic, 76.9% route)
+    Total                                      0.391ns (0.130ns logic, 0.261ns route)
+                                                       (33.2% logic, 66.8% route)
 
 --------------------------------------------------------------------------------
 
-Paths for end point Inst_vga_int/x_count_9 (SLICE_X14Y20.CE), 1 path
+Paths for end point Inst_vga_int/y_count_8 (SLICE_X6Y15.CE), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.400ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               Inst_vga_int/en_25 (FF)
-  Destination:          Inst_vga_int/x_count_9 (FF)
+Slack (hold path):      0.388ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_vga_int/line_en (FF)
+  Destination:          Inst_vga_int/y_count_8 (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.394ns (Levels of Logic = 0)
-  Clock Path Skew:      -0.006ns (0.080 - 0.086)
+  Data Path Delay:      0.393ns (Levels of Logic = 0)
+  Clock Path Skew:      0.005ns (0.152 - 0.147)
   Source Clock:         clk100khz rising at 10.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path at Fast Process Corner: Inst_vga_int/en_25 to Inst_vga_int/x_count_9
+  Minimum Data Path at Fast Process Corner: Inst_vga_int/line_en to Inst_vga_int/y_count_8
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X9Y22.AQ       Tcko                  0.198   Inst_vga_int/en_25
-                                                       Inst_vga_int/en_25
-    SLICE_X14Y20.CE      net (fanout=7)        0.300   Inst_vga_int/en_25
-    SLICE_X14Y20.CLK     Tckce       (-Th)     0.104   Inst_vga_int/x_count_8_1
-                                                       Inst_vga_int/x_count_9
+    SLICE_X6Y16.DQ       Tcko                  0.234   Inst_vga_int/line_en
+                                                       Inst_vga_int/line_en
+    SLICE_X6Y15.CE       net (fanout=6)        0.261   Inst_vga_int/line_en
+    SLICE_X6Y15.CLK      Tckce       (-Th)     0.102   Inst_vga_int/y_count<9>
+                                                       Inst_vga_int/y_count_8
     -------------------------------------------------  ---------------------------
-    Total                                      0.394ns (0.094ns logic, 0.300ns route)
-                                                       (23.9% logic, 76.1% route)
+    Total                                      0.393ns (0.132ns logic, 0.261ns route)
+                                                       (33.6% logic, 66.4% route)
 
 --------------------------------------------------------------------------------
 
-Paths for end point Inst_vga_int/count_0 (SLICE_X8Y22.A6), 1 path
+Paths for end point Inst_vga_int/y_count_7 (SLICE_X6Y15.CE), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.418ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               Inst_vga_int/count_0 (FF)
-  Destination:          Inst_vga_int/count_0 (FF)
+Slack (hold path):      0.398ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_vga_int/line_en (FF)
+  Destination:          Inst_vga_int/y_count_7 (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.418ns (Levels of Logic = 1)
-  Clock Path Skew:      0.000ns
+  Data Path Delay:      0.403ns (Levels of Logic = 0)
+  Clock Path Skew:      0.005ns (0.152 - 0.147)
   Source Clock:         clk100khz rising at 10.000ns
   Destination Clock:    clk100khz rising at 10.000ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path at Fast Process Corner: Inst_vga_int/count_0 to Inst_vga_int/count_0
+  Minimum Data Path at Fast Process Corner: Inst_vga_int/line_en to Inst_vga_int/y_count_7
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X8Y22.AQ       Tcko                  0.200   Inst_vga_int/count<1>
-                                                       Inst_vga_int/count_0
-    SLICE_X8Y22.A6       net (fanout=3)        0.028   Inst_vga_int/count<0>
-    SLICE_X8Y22.CLK      Tah         (-Th)    -0.190   Inst_vga_int/count<1>
-                                                       Inst_vga_int/Mcount_count_xor<0>11_INV_0
-                                                       Inst_vga_int/count_0
+    SLICE_X6Y16.DQ       Tcko                  0.234   Inst_vga_int/line_en
+                                                       Inst_vga_int/line_en
+    SLICE_X6Y15.CE       net (fanout=6)        0.261   Inst_vga_int/line_en
+    SLICE_X6Y15.CLK      Tckce       (-Th)     0.092   Inst_vga_int/y_count<9>
+                                                       Inst_vga_int/y_count_7
     -------------------------------------------------  ---------------------------
-    Total                                      0.418ns (0.390ns logic, 0.028ns route)
-                                                       (93.3% logic, 6.7% route)
+    Total                                      0.403ns (0.142ns logic, 0.261ns route)
+                                                       (35.2% logic, 64.8% route)
 
 --------------------------------------------------------------------------------
 
@@ -537,17 +545,17 @@ Slack: 8.270ns (period - min period limit)
 Slack: 9.570ns (period - min period limit)
   Period: 10.000ns
   Min period limit: 0.430ns (2325.581MHz) (Tcp)
-  Physical resource: Inst_vga_int/count<1>/CLK
-  Logical resource: Inst_vga_int/count_0/CK
-  Location pin: SLICE_X8Y22.CLK
+  Physical resource: Inst_vga_int/v_state_FSM_FFd2/CLK
+  Logical resource: Inst_vga_int/v_state_FSM_FFd1/CK
+  Location pin: SLICE_X4Y14.CLK
   Clock network: clk100khz
 --------------------------------------------------------------------------------
 Slack: 9.570ns (period - min period limit)
   Period: 10.000ns
   Min period limit: 0.430ns (2325.581MHz) (Tcp)
-  Physical resource: Inst_vga_int/count<1>/CLK
-  Logical resource: Inst_vga_int/count_1/CK
-  Location pin: SLICE_X8Y22.CLK
+  Physical resource: Inst_vga_int/v_state_FSM_FFd2/CLK
+  Logical resource: Inst_vga_int/v_state_FSM_FFd2/CK
+  Location pin: SLICE_X4Y14.CLK
   Clock network: clk100khz
 --------------------------------------------------------------------------------
 
@@ -556,19 +564,19 @@ Timing constraint: TS_Inst_dcm1_clkfx = PERIOD TIMEGRP "Inst_dcm1_clkfx"
 TS_clkin / 0.16 HIGH         50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 4527 paths analyzed, 952 endpoints analyzed, 0 failing endpoints
+ 3669 paths analyzed, 820 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  12.090ns.
+ Minimum period is  11.566ns.
 --------------------------------------------------------------------------------
 
-Paths for end point Inst_msa_hdl_Niveau5/tmp_score_7 (SLICE_X26Y30.B6), 34 paths
+Paths for end point Inst_msa_hdl_Niveau8/tmp_score_6 (SLICE_X26Y36.C6), 32 paths
 --------------------------------------------------------------------------------
-Slack (setup path):     25.205ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_msa_hdl_Niveau5/etatpres_2 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_7 (FF)
+Slack (setup path):     25.467ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_msa_hdl_Niveau8/etatpres_4 (FF)
+  Destination:          Inst_msa_hdl_Niveau8/tmp_score_6 (FF)
   Requirement:          31.250ns
-  Data Path Delay:      5.273ns (Levels of Logic = 5)
-  Clock Path Skew:      -0.012ns (0.266 - 0.278)
+  Data Path Delay:      5.021ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.002ns (0.261 - 0.263)
   Source Clock:         clk_dcm1 rising at 0.000ns
   Destination Clock:    clk_dcm1 falling at 31.250ns
   Clock Uncertainty:    0.760ns
@@ -579,39 +587,39 @@ Slack (setup path):     25.205ns (requirement - (data path - clock path skew + u
     Discrete Jitter (DJ):       1.450ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_2 to Inst_msa_hdl_Niveau5/tmp_score_7
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau8/etatpres_4 to Inst_msa_hdl_Niveau8/tmp_score_6
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X29Y26.CQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
-                                                       Inst_msa_hdl_Niveau5/etatpres_2
-    SLICE_X24Y29.D2      net (fanout=12)       1.109   Inst_msa_hdl_Niveau5/etatpres<2>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X16Y30.C4      net (fanout=7)        0.378   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X16Y30.C       Tilo                  0.205   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C1      net (fanout=1)        0.981   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C       Tilo                  0.259   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1412
-    SLICE_X26Y30.B6      net (fanout=2)        0.284   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT141
-    SLICE_X26Y30.CLK     Tas                   0.289   Inst_msa_hdl_Niveau5/tmp_score<7>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT161
-                                                       Inst_msa_hdl_Niveau5/tmp_score_7
+    SLICE_X24Y38.AQ      Tcko                  0.408   Inst_msa_hdl_Niveau8/etatpres<4>
+                                                       Inst_msa_hdl_Niveau8/etatpres_4
+    SLICE_X19Y45.B2      net (fanout=14)       1.301   Inst_msa_hdl_Niveau8/etatpres<4>
+    SLICE_X19Y45.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT921
+    SLICE_X24Y37.C5      net (fanout=4)        1.036   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+    SLICE_X24Y37.C       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT15311
+    SLICE_X24Y37.B4      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT1531
+    SLICE_X24Y37.B       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT21111
+    SLICE_X27Y36.B3      net (fanout=2)        0.491   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X26Y36.C6      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+    SLICE_X26Y36.CLK     Tas                   0.289   Inst_msa_hdl_Niveau8/tmp_score<6>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+                                                       Inst_msa_hdl_Niveau8/tmp_score_6
     -------------------------------------------------  ---------------------------
-    Total                                      5.273ns (1.646ns logic, 3.627ns route)
-                                                       (31.2% logic, 68.8% route)
+    Total                                      5.021ns (1.625ns logic, 3.396ns route)
+                                                       (32.4% logic, 67.6% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     25.256ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_msa_hdl_Niveau5/etatpres_0 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_7 (FF)
+Slack (setup path):     25.499ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_msa_hdl_Niveau8/etatpres_0 (FF)
+  Destination:          Inst_msa_hdl_Niveau8/tmp_score_6 (FF)
   Requirement:          31.250ns
-  Data Path Delay:      5.222ns (Levels of Logic = 5)
-  Clock Path Skew:      -0.012ns (0.266 - 0.278)
+  Data Path Delay:      4.993ns (Levels of Logic = 5)
+  Clock Path Skew:      0.002ns (0.261 - 0.259)
   Source Clock:         clk_dcm1 rising at 0.000ns
   Destination Clock:    clk_dcm1 falling at 31.250ns
   Clock Uncertainty:    0.760ns
@@ -622,39 +630,217 @@ Slack (setup path):     25.256ns (requirement - (data path - clock path skew + u
     Discrete Jitter (DJ):       1.450ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_0 to Inst_msa_hdl_Niveau5/tmp_score_7
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau8/etatpres_0 to Inst_msa_hdl_Niveau8/tmp_score_6
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X29Y26.AQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
-                                                       Inst_msa_hdl_Niveau5/etatpres_0
-    SLICE_X24Y29.D1      net (fanout=12)       1.058   Inst_msa_hdl_Niveau5/etatpres<0>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X16Y30.C4      net (fanout=7)        0.378   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X16Y30.C       Tilo                  0.205   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C1      net (fanout=1)        0.981   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C       Tilo                  0.259   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1412
-    SLICE_X26Y30.B6      net (fanout=2)        0.284   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT141
-    SLICE_X26Y30.CLK     Tas                   0.289   Inst_msa_hdl_Niveau5/tmp_score<7>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT161
-                                                       Inst_msa_hdl_Niveau5/tmp_score_7
+    SLICE_X21Y36.AQ      Tcko                  0.391   Inst_msa_hdl_Niveau8/etatpres<3>
+                                                       Inst_msa_hdl_Niveau8/etatpres_0
+    SLICE_X19Y45.B1      net (fanout=16)       1.290   Inst_msa_hdl_Niveau8/etatpres<0>
+    SLICE_X19Y45.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT921
+    SLICE_X24Y37.C5      net (fanout=4)        1.036   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+    SLICE_X24Y37.C       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT15311
+    SLICE_X24Y37.B4      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT1531
+    SLICE_X24Y37.B       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT21111
+    SLICE_X27Y36.B3      net (fanout=2)        0.491   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X26Y36.C6      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+    SLICE_X26Y36.CLK     Tas                   0.289   Inst_msa_hdl_Niveau8/tmp_score<6>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+                                                       Inst_msa_hdl_Niveau8/tmp_score_6
     -------------------------------------------------  ---------------------------
-    Total                                      5.222ns (1.646ns logic, 3.576ns route)
-                                                       (31.5% logic, 68.5% route)
+    Total                                      4.993ns (1.608ns logic, 3.385ns route)
+                                                       (32.2% logic, 67.8% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     25.341ns (requirement - (data path - clock path skew + uncertainty))
+Slack (setup path):     25.782ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_msa_hdl_Niveau8/etatpres_3 (FF)
+  Destination:          Inst_msa_hdl_Niveau8/tmp_score_6 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      4.710ns (Levels of Logic = 5)
+  Clock Path Skew:      0.002ns (0.261 - 0.259)
+  Source Clock:         clk_dcm1 rising at 0.000ns
+  Destination Clock:    clk_dcm1 falling at 31.250ns
+  Clock Uncertainty:    0.760ns
+
+  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       1.450ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau8/etatpres_3 to Inst_msa_hdl_Niveau8/tmp_score_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y36.DQ      Tcko                  0.391   Inst_msa_hdl_Niveau8/etatpres<3>
+                                                       Inst_msa_hdl_Niveau8/etatpres_3
+    SLICE_X19Y45.B4      net (fanout=7)        1.007   Inst_msa_hdl_Niveau8/etatpres<3>
+    SLICE_X19Y45.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT921
+    SLICE_X24Y37.C5      net (fanout=4)        1.036   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+    SLICE_X24Y37.C       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT15311
+    SLICE_X24Y37.B4      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT1531
+    SLICE_X24Y37.B       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT21111
+    SLICE_X27Y36.B3      net (fanout=2)        0.491   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X26Y36.C6      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+    SLICE_X26Y36.CLK     Tas                   0.289   Inst_msa_hdl_Niveau8/tmp_score<6>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+                                                       Inst_msa_hdl_Niveau8/tmp_score_6
+    -------------------------------------------------  ---------------------------
+    Total                                      4.710ns (1.608ns logic, 3.102ns route)
+                                                       (34.1% logic, 65.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_msa_hdl_Niveau8/tmp_score_7 (SLICE_X27Y36.A5), 32 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     25.526ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_msa_hdl_Niveau8/etatpres_4 (FF)
+  Destination:          Inst_msa_hdl_Niveau8/tmp_score_7 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      4.962ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.002ns (0.261 - 0.263)
+  Source Clock:         clk_dcm1 rising at 0.000ns
+  Destination Clock:    clk_dcm1 falling at 31.250ns
+  Clock Uncertainty:    0.760ns
+
+  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       1.450ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau8/etatpres_4 to Inst_msa_hdl_Niveau8/tmp_score_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X24Y38.AQ      Tcko                  0.408   Inst_msa_hdl_Niveau8/etatpres<4>
+                                                       Inst_msa_hdl_Niveau8/etatpres_4
+    SLICE_X19Y45.B2      net (fanout=14)       1.301   Inst_msa_hdl_Niveau8/etatpres<4>
+    SLICE_X19Y45.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT921
+    SLICE_X24Y37.C5      net (fanout=4)        1.036   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+    SLICE_X24Y37.C       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT15311
+    SLICE_X24Y37.B4      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT1531
+    SLICE_X24Y37.B       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT21111
+    SLICE_X27Y36.B3      net (fanout=2)        0.491   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.A5      net (fanout=2)        0.192   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+    SLICE_X27Y36.CLK     Tas                   0.322   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT241
+                                                       Inst_msa_hdl_Niveau8/tmp_score_7
+    -------------------------------------------------  ---------------------------
+    Total                                      4.962ns (1.658ns logic, 3.304ns route)
+                                                       (33.4% logic, 66.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     25.558ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_msa_hdl_Niveau8/etatpres_0 (FF)
+  Destination:          Inst_msa_hdl_Niveau8/tmp_score_7 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      4.934ns (Levels of Logic = 5)
+  Clock Path Skew:      0.002ns (0.261 - 0.259)
+  Source Clock:         clk_dcm1 rising at 0.000ns
+  Destination Clock:    clk_dcm1 falling at 31.250ns
+  Clock Uncertainty:    0.760ns
+
+  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       1.450ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau8/etatpres_0 to Inst_msa_hdl_Niveau8/tmp_score_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y36.AQ      Tcko                  0.391   Inst_msa_hdl_Niveau8/etatpres<3>
+                                                       Inst_msa_hdl_Niveau8/etatpres_0
+    SLICE_X19Y45.B1      net (fanout=16)       1.290   Inst_msa_hdl_Niveau8/etatpres<0>
+    SLICE_X19Y45.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT921
+    SLICE_X24Y37.C5      net (fanout=4)        1.036   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+    SLICE_X24Y37.C       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT15311
+    SLICE_X24Y37.B4      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT1531
+    SLICE_X24Y37.B       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT21111
+    SLICE_X27Y36.B3      net (fanout=2)        0.491   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.A5      net (fanout=2)        0.192   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+    SLICE_X27Y36.CLK     Tas                   0.322   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT241
+                                                       Inst_msa_hdl_Niveau8/tmp_score_7
+    -------------------------------------------------  ---------------------------
+    Total                                      4.934ns (1.641ns logic, 3.293ns route)
+                                                       (33.3% logic, 66.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     25.841ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_msa_hdl_Niveau8/etatpres_3 (FF)
+  Destination:          Inst_msa_hdl_Niveau8/tmp_score_7 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      4.651ns (Levels of Logic = 5)
+  Clock Path Skew:      0.002ns (0.261 - 0.259)
+  Source Clock:         clk_dcm1 rising at 0.000ns
+  Destination Clock:    clk_dcm1 falling at 31.250ns
+  Clock Uncertainty:    0.760ns
+
+  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       1.450ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau8/etatpres_3 to Inst_msa_hdl_Niveau8/tmp_score_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y36.DQ      Tcko                  0.391   Inst_msa_hdl_Niveau8/etatpres<3>
+                                                       Inst_msa_hdl_Niveau8/etatpres_3
+    SLICE_X19Y45.B4      net (fanout=7)        1.007   Inst_msa_hdl_Niveau8/etatpres<3>
+    SLICE_X19Y45.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT921
+    SLICE_X24Y37.C5      net (fanout=4)        1.036   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT92
+    SLICE_X24Y37.C       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT15311
+    SLICE_X24Y37.B4      net (fanout=2)        0.284   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT1531
+    SLICE_X24Y37.B       Tilo                  0.205   N57
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT21111
+    SLICE_X27Y36.B3      net (fanout=2)        0.491   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.B       Tilo                  0.259   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT2111
+    SLICE_X27Y36.A5      net (fanout=2)        0.192   Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT211
+    SLICE_X27Y36.CLK     Tas                   0.322   Inst_msa_hdl_Niveau8/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau8/Mmux_etatpres[4]_X_24_o_wide_mux_73_OUT241
+                                                       Inst_msa_hdl_Niveau8/tmp_score_7
+    -------------------------------------------------  ---------------------------
+    Total                                      4.651ns (1.641ns logic, 3.010ns route)
+                                                       (35.3% logic, 64.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_msa_hdl_Niveau5/tmp_score_7 (SLICE_X20Y34.D1), 28 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     25.743ns (requirement - (data path - clock path skew + uncertainty))
   Source:               Inst_msa_hdl_Niveau5/etatpres_4 (FF)
   Destination:          Inst_msa_hdl_Niveau5/tmp_score_7 (FF)
   Requirement:          31.250ns
-  Data Path Delay:      5.125ns (Levels of Logic = 5)
-  Clock Path Skew:      -0.024ns (0.266 - 0.290)
+  Data Path Delay:      4.718ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.029ns (0.248 - 0.277)
   Source Clock:         clk_dcm1 rising at 0.000ns
   Destination Clock:    clk_dcm1 falling at 31.250ns
   Clock Uncertainty:    0.760ns
@@ -669,38 +855,32 @@ Slack (setup path):     25.341ns (requirement - (data path - clock path skew + u
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X31Y26.CQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<4>
+    SLICE_X27Y35.DQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<4>
                                                        Inst_msa_hdl_Niveau5/etatpres_4
-    SLICE_X24Y29.D4      net (fanout=12)       0.961   Inst_msa_hdl_Niveau5/etatpres<4>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
+    SLICE_X24Y34.D2      net (fanout=12)       0.828   Inst_msa_hdl_Niveau5/etatpres<4>
+    SLICE_X24Y34.D       Tilo                  0.205   Inst_msa_hdl_Niveau5/_n0194
+                                                       Inst_msa_hdl_Niveau5/_n0194<4>1
+    SLICE_X21Y36.C3      net (fanout=5)        0.870   Inst_msa_hdl_Niveau5/_n0194
+    SLICE_X21Y36.C       Tilo                  0.259   Inst_msa_hdl_Niveau8/etatpres<3>
                                                        Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X16Y30.C4      net (fanout=7)        0.378   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X16Y30.C       Tilo                  0.205   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C1      net (fanout=1)        0.981   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C       Tilo                  0.259   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1412
-    SLICE_X26Y30.B6      net (fanout=2)        0.284   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT141
-    SLICE_X26Y30.CLK     Tas                   0.289   Inst_msa_hdl_Niveau5/tmp_score<7>
+    SLICE_X20Y34.C1      net (fanout=7)        0.816   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
+    SLICE_X20Y34.C       Tilo                  0.205   Inst_msa_hdl_Niveau5/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
+    SLICE_X20Y34.D1      net (fanout=2)        0.803   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
+    SLICE_X20Y34.CLK     Tas                   0.341   Inst_msa_hdl_Niveau5/tmp_score<7>
                                                        Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT161
                                                        Inst_msa_hdl_Niveau5/tmp_score_7
     -------------------------------------------------  ---------------------------
-    Total                                      5.125ns (1.646ns logic, 3.479ns route)
-                                                       (32.1% logic, 67.9% route)
+    Total                                      4.718ns (1.401ns logic, 3.317ns route)
+                                                       (29.7% logic, 70.3% route)
 
 --------------------------------------------------------------------------------
-
-Paths for end point Inst_msa_hdl_Niveau5/tmp_score_6 (SLICE_X27Y30.D1), 28 paths
---------------------------------------------------------------------------------
-Slack (setup path):     25.213ns (requirement - (data path - clock path skew + uncertainty))
+Slack (setup path):     25.899ns (requirement - (data path - clock path skew + uncertainty))
   Source:               Inst_msa_hdl_Niveau5/etatpres_2 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_6 (FF)
+  Destination:          Inst_msa_hdl_Niveau5/tmp_score_7 (FF)
   Requirement:          31.250ns
-  Data Path Delay:      5.265ns (Levels of Logic = 4)
-  Clock Path Skew:      -0.012ns (0.266 - 0.278)
+  Data Path Delay:      4.570ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.021ns (0.248 - 0.269)
   Source Clock:         clk_dcm1 rising at 0.000ns
   Destination Clock:    clk_dcm1 falling at 31.250ns
   Clock Uncertainty:    0.760ns
@@ -711,36 +891,36 @@ Slack (setup path):     25.213ns (requirement - (data path - clock path skew + u
     Discrete Jitter (DJ):       1.450ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_2 to Inst_msa_hdl_Niveau5/tmp_score_6
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_2 to Inst_msa_hdl_Niveau5/tmp_score_7
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X29Y26.CQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
+    SLICE_X25Y36.CQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
                                                        Inst_msa_hdl_Niveau5/etatpres_2
-    SLICE_X24Y29.D2      net (fanout=12)       1.109   Inst_msa_hdl_Niveau5/etatpres<2>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
+    SLICE_X24Y34.D3      net (fanout=12)       0.680   Inst_msa_hdl_Niveau5/etatpres<2>
+    SLICE_X24Y34.D       Tilo                  0.205   Inst_msa_hdl_Niveau5/_n0194
+                                                       Inst_msa_hdl_Niveau5/_n0194<4>1
+    SLICE_X21Y36.C3      net (fanout=5)        0.870   Inst_msa_hdl_Niveau5/_n0194
+    SLICE_X21Y36.C       Tilo                  0.259   Inst_msa_hdl_Niveau8/etatpres<3>
                                                        Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X26Y30.A4      net (fanout=7)        1.287   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X26Y30.A       Tilo                  0.203   Inst_msa_hdl_Niveau5/tmp_score<7>
+    SLICE_X20Y34.C1      net (fanout=7)        0.816   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
+    SLICE_X20Y34.C       Tilo                  0.205   Inst_msa_hdl_Niveau5/tmp_score<7>
                                                        Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
-    SLICE_X27Y30.D1      net (fanout=2)        0.576   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
-    SLICE_X27Y30.CLK     Tas                   0.322   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT142
-                                                       Inst_msa_hdl_Niveau5/tmp_score_6
+    SLICE_X20Y34.D1      net (fanout=2)        0.803   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
+    SLICE_X20Y34.CLK     Tas                   0.341   Inst_msa_hdl_Niveau5/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT161
+                                                       Inst_msa_hdl_Niveau5/tmp_score_7
     -------------------------------------------------  ---------------------------
-    Total                                      5.265ns (1.418ns logic, 3.847ns route)
-                                                       (26.9% logic, 73.1% route)
+    Total                                      4.570ns (1.401ns logic, 3.169ns route)
+                                                       (30.7% logic, 69.3% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     25.264ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_msa_hdl_Niveau5/etatpres_0 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_6 (FF)
+Slack (setup path):     25.904ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_msa_hdl_Niveau5/etatpres_1 (FF)
+  Destination:          Inst_msa_hdl_Niveau5/tmp_score_7 (FF)
   Requirement:          31.250ns
-  Data Path Delay:      5.214ns (Levels of Logic = 4)
-  Clock Path Skew:      -0.012ns (0.266 - 0.278)
+  Data Path Delay:      4.565ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.021ns (0.248 - 0.269)
   Source Clock:         clk_dcm1 rising at 0.000ns
   Destination Clock:    clk_dcm1 falling at 31.250ns
   Clock Uncertainty:    0.760ns
@@ -751,200 +931,28 @@ Slack (setup path):     25.264ns (requirement - (data path - clock path skew + u
     Discrete Jitter (DJ):       1.450ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_0 to Inst_msa_hdl_Niveau5/tmp_score_6
+  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_1 to Inst_msa_hdl_Niveau5/tmp_score_7
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X29Y26.AQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
-                                                       Inst_msa_hdl_Niveau5/etatpres_0
-    SLICE_X24Y29.D1      net (fanout=12)       1.058   Inst_msa_hdl_Niveau5/etatpres<0>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
+    SLICE_X25Y36.BQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
+                                                       Inst_msa_hdl_Niveau5/etatpres_1
+    SLICE_X24Y34.D1      net (fanout=10)       0.675   Inst_msa_hdl_Niveau5/etatpres<1>
+    SLICE_X24Y34.D       Tilo                  0.205   Inst_msa_hdl_Niveau5/_n0194
+                                                       Inst_msa_hdl_Niveau5/_n0194<4>1
+    SLICE_X21Y36.C3      net (fanout=5)        0.870   Inst_msa_hdl_Niveau5/_n0194
+    SLICE_X21Y36.C       Tilo                  0.259   Inst_msa_hdl_Niveau8/etatpres<3>
                                                        Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X26Y30.A4      net (fanout=7)        1.287   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X26Y30.A       Tilo                  0.203   Inst_msa_hdl_Niveau5/tmp_score<7>
+    SLICE_X20Y34.C1      net (fanout=7)        0.816   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
+    SLICE_X20Y34.C       Tilo                  0.205   Inst_msa_hdl_Niveau5/tmp_score<7>
                                                        Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
-    SLICE_X27Y30.D1      net (fanout=2)        0.576   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
-    SLICE_X27Y30.CLK     Tas                   0.322   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT142
-                                                       Inst_msa_hdl_Niveau5/tmp_score_6
+    SLICE_X20Y34.D1      net (fanout=2)        0.803   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
+    SLICE_X20Y34.CLK     Tas                   0.341   Inst_msa_hdl_Niveau5/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT161
+                                                       Inst_msa_hdl_Niveau5/tmp_score_7
     -------------------------------------------------  ---------------------------
-    Total                                      5.214ns (1.418ns logic, 3.796ns route)
-                                                       (27.2% logic, 72.8% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     25.349ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_msa_hdl_Niveau5/etatpres_4 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_6 (FF)
-  Requirement:          31.250ns
-  Data Path Delay:      5.117ns (Levels of Logic = 4)
-  Clock Path Skew:      -0.024ns (0.266 - 0.290)
-  Source Clock:         clk_dcm1 rising at 0.000ns
-  Destination Clock:    clk_dcm1 falling at 31.250ns
-  Clock Uncertainty:    0.760ns
-
-  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       1.450ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_4 to Inst_msa_hdl_Niveau5/tmp_score_6
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y26.CQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<4>
-                                                       Inst_msa_hdl_Niveau5/etatpres_4
-    SLICE_X24Y29.D4      net (fanout=12)       0.961   Inst_msa_hdl_Niveau5/etatpres<4>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X26Y30.A4      net (fanout=7)        1.287   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X26Y30.A       Tilo                  0.203   Inst_msa_hdl_Niveau5/tmp_score<7>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
-    SLICE_X27Y30.D1      net (fanout=2)        0.576   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT163
-    SLICE_X27Y30.CLK     Tas                   0.322   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT142
-                                                       Inst_msa_hdl_Niveau5/tmp_score_6
-    -------------------------------------------------  ---------------------------
-    Total                                      5.117ns (1.418ns logic, 3.699ns route)
-                                                       (27.7% logic, 72.3% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point Inst_msa_hdl_Niveau5/tmp_score_6 (SLICE_X27Y30.D5), 34 paths
---------------------------------------------------------------------------------
-Slack (setup path):     25.242ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_msa_hdl_Niveau5/etatpres_2 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_6 (FF)
-  Requirement:          31.250ns
-  Data Path Delay:      5.236ns (Levels of Logic = 5)
-  Clock Path Skew:      -0.012ns (0.266 - 0.278)
-  Source Clock:         clk_dcm1 rising at 0.000ns
-  Destination Clock:    clk_dcm1 falling at 31.250ns
-  Clock Uncertainty:    0.760ns
-
-  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       1.450ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_2 to Inst_msa_hdl_Niveau5/tmp_score_6
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X29Y26.CQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
-                                                       Inst_msa_hdl_Niveau5/etatpres_2
-    SLICE_X24Y29.D2      net (fanout=12)       1.109   Inst_msa_hdl_Niveau5/etatpres<2>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X16Y30.C4      net (fanout=7)        0.378   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X16Y30.C       Tilo                  0.205   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C1      net (fanout=1)        0.981   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C       Tilo                  0.259   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1412
-    SLICE_X27Y30.D5      net (fanout=2)        0.214   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT141
-    SLICE_X27Y30.CLK     Tas                   0.322   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT142
-                                                       Inst_msa_hdl_Niveau5/tmp_score_6
-    -------------------------------------------------  ---------------------------
-    Total                                      5.236ns (1.679ns logic, 3.557ns route)
-                                                       (32.1% logic, 67.9% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     25.293ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_msa_hdl_Niveau5/etatpres_0 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_6 (FF)
-  Requirement:          31.250ns
-  Data Path Delay:      5.185ns (Levels of Logic = 5)
-  Clock Path Skew:      -0.012ns (0.266 - 0.278)
-  Source Clock:         clk_dcm1 rising at 0.000ns
-  Destination Clock:    clk_dcm1 falling at 31.250ns
-  Clock Uncertainty:    0.760ns
-
-  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       1.450ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_0 to Inst_msa_hdl_Niveau5/tmp_score_6
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X29Y26.AQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<3>
-                                                       Inst_msa_hdl_Niveau5/etatpres_0
-    SLICE_X24Y29.D1      net (fanout=12)       1.058   Inst_msa_hdl_Niveau5/etatpres<0>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X16Y30.C4      net (fanout=7)        0.378   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X16Y30.C       Tilo                  0.205   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C1      net (fanout=1)        0.981   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C       Tilo                  0.259   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1412
-    SLICE_X27Y30.D5      net (fanout=2)        0.214   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT141
-    SLICE_X27Y30.CLK     Tas                   0.322   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT142
-                                                       Inst_msa_hdl_Niveau5/tmp_score_6
-    -------------------------------------------------  ---------------------------
-    Total                                      5.185ns (1.679ns logic, 3.506ns route)
-                                                       (32.4% logic, 67.6% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     25.378ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               Inst_msa_hdl_Niveau5/etatpres_4 (FF)
-  Destination:          Inst_msa_hdl_Niveau5/tmp_score_6 (FF)
-  Requirement:          31.250ns
-  Data Path Delay:      5.088ns (Levels of Logic = 5)
-  Clock Path Skew:      -0.024ns (0.266 - 0.290)
-  Source Clock:         clk_dcm1 rising at 0.000ns
-  Destination Clock:    clk_dcm1 falling at 31.250ns
-  Clock Uncertainty:    0.760ns
-
-  Clock Uncertainty:          0.760ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       1.450ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: Inst_msa_hdl_Niveau5/etatpres_4 to Inst_msa_hdl_Niveau5/tmp_score_6
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y26.CQ      Tcko                  0.391   Inst_msa_hdl_Niveau5/etatpres<4>
-                                                       Inst_msa_hdl_Niveau5/etatpres_4
-    SLICE_X24Y29.D4      net (fanout=12)       0.961   Inst_msa_hdl_Niveau5/etatpres<4>
-    SLICE_X24Y29.DMUX    Tilo                  0.251   enable_del<4>
-                                                       Inst_msa_hdl_Niveau5/_n0184<4>1
-    SLICE_X16Y30.D3      net (fanout=5)        0.875   Inst_msa_hdl_Niveau5/_n0184
-    SLICE_X16Y30.DMUX    Tilo                  0.251   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1011
-    SLICE_X16Y30.C4      net (fanout=7)        0.378   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT101
-    SLICE_X16Y30.C       Tilo                  0.205   Inst_msa_hdl_Niveau4/Mmux_etatpres[4]_X_20_o_wide_mux_77_OUT123
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C1      net (fanout=1)        0.981   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1411
-    SLICE_X27Y30.C       Tilo                  0.259   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT1412
-    SLICE_X27Y30.D5      net (fanout=2)        0.214   Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT141
-    SLICE_X27Y30.CLK     Tas                   0.322   Inst_msa_hdl_Niveau5/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT142
-                                                       Inst_msa_hdl_Niveau5/tmp_score_6
-    -------------------------------------------------  ---------------------------
-    Total                                      5.088ns (1.679ns logic, 3.409ns route)
-                                                       (33.0% logic, 67.0% route)
+    Total                                      4.565ns (1.401ns logic, 3.164ns route)
+                                                       (30.7% logic, 69.3% route)
 
 --------------------------------------------------------------------------------
 
@@ -952,86 +960,85 @@ Hold Paths: TS_Inst_dcm1_clkfx = PERIOD TIMEGRP "Inst_dcm1_clkfx" TS_clkin / 0.1
         50%;
 --------------------------------------------------------------------------------
 
-Paths for end point inst_diviseur_clk/clk2khz (SLICE_X18Y35.AX), 1 path
+Paths for end point Inst_msa_hdl_Niveau1/etatsuiv_4 (SLICE_X2Y49.CE), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.405ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               inst_diviseur_clk/div2khz_temp (FF)
-  Destination:          inst_diviseur_clk/clk2khz (FF)
+Slack (hold path):      0.317ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_msa_hdl_Niveau1/enable_game (FF)
+  Destination:          Inst_msa_hdl_Niveau1/etatsuiv_4 (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.407ns (Levels of Logic = 0)
+  Data Path Delay:      0.318ns (Levels of Logic = 0)
+  Clock Path Skew:      0.001ns (0.043 - 0.042)
+  Source Clock:         clk_dcm1 falling at 93.750ns
+  Destination Clock:    clk_dcm1 falling at 93.750ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Inst_msa_hdl_Niveau1/enable_game to Inst_msa_hdl_Niveau1/etatsuiv_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X2Y48.AMUX     Tshcko                0.266   Inst_msa_hdl_Niveau1/_n0194<4>11
+                                                       Inst_msa_hdl_Niveau1/enable_game
+    SLICE_X2Y49.CE       net (fanout=7)        0.144   Inst_msa_hdl_Niveau1/enable_game
+    SLICE_X2Y49.CLK      Tckce       (-Th)     0.092   Inst_msa_hdl_Niveau1/etatsuiv<4>
+                                                       Inst_msa_hdl_Niveau1/etatsuiv_4
+    -------------------------------------------------  ---------------------------
+    Total                                      0.318ns (0.174ns logic, 0.144ns route)
+                                                       (54.7% logic, 45.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point inst_diviseur_clk/clk16hz (SLICE_X8Y28.AX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.394ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               inst_diviseur_clk/div16hz_temp (FF)
+  Destination:          inst_diviseur_clk/clk16hz (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.396ns (Levels of Logic = 0)
   Clock Path Skew:      0.002ns (0.040 - 0.038)
   Source Clock:         clk_dcm1 rising at 62.500ns
   Destination Clock:    clk_dcm1 rising at 62.500ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path at Fast Process Corner: inst_diviseur_clk/div2khz_temp to inst_diviseur_clk/clk2khz
+  Minimum Data Path at Fast Process Corner: inst_diviseur_clk/div16hz_temp to inst_diviseur_clk/clk16hz
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X19Y35.AQ      Tcko                  0.198   inst_diviseur_clk/div2khz_temp
-                                                       inst_diviseur_clk/div2khz_temp
-    SLICE_X18Y35.AX      net (fanout=2)        0.168   inst_diviseur_clk/div2khz_temp
-    SLICE_X18Y35.CLK     Tckdi       (-Th)    -0.041   inst_diviseur_clk/clk2khz
-                                                       inst_diviseur_clk/clk2khz
+    SLICE_X9Y28.AQ       Tcko                  0.198   inst_diviseur_clk/div16hz_temp
+                                                       inst_diviseur_clk/div16hz_temp
+    SLICE_X8Y28.AX       net (fanout=2)        0.150   inst_diviseur_clk/div16hz_temp
+    SLICE_X8Y28.CLK      Tckdi       (-Th)    -0.048   inst_diviseur_clk/clk16hz
+                                                       inst_diviseur_clk/clk16hz
     -------------------------------------------------  ---------------------------
-    Total                                      0.407ns (0.239ns logic, 0.168ns route)
-                                                       (58.7% logic, 41.3% route)
+    Total                                      0.396ns (0.246ns logic, 0.150ns route)
+                                                       (62.1% logic, 37.9% route)
 
 --------------------------------------------------------------------------------
 
-Paths for end point Inst_msa_hdl_Niveau7/tmp_score_5 (SLICE_X12Y42.A6), 1 path
+Paths for end point Inst_msa_hdl_Niveau5/tmp_score_7 (SLICE_X20Y34.D6), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.421ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               Inst_msa_hdl_Niveau7/tmp_score_5 (FF)
-  Destination:          Inst_msa_hdl_Niveau7/tmp_score_5 (FF)
+Slack (hold path):      0.412ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_msa_hdl_Niveau5/tmp_score_7 (FF)
+  Destination:          Inst_msa_hdl_Niveau5/tmp_score_7 (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.421ns (Levels of Logic = 1)
+  Data Path Delay:      0.412ns (Levels of Logic = 1)
   Clock Path Skew:      0.000ns
   Source Clock:         clk_dcm1 falling at 93.750ns
   Destination Clock:    clk_dcm1 falling at 93.750ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path at Fast Process Corner: Inst_msa_hdl_Niveau7/tmp_score_5 to Inst_msa_hdl_Niveau7/tmp_score_5
+  Minimum Data Path at Fast Process Corner: Inst_msa_hdl_Niveau5/tmp_score_7 to Inst_msa_hdl_Niveau5/tmp_score_7
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X12Y42.AQ      Tcko                  0.200   Inst_msa_hdl_Niveau7/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau7/tmp_score_5
-    SLICE_X12Y42.A6      net (fanout=4)        0.031   Inst_msa_hdl_Niveau7/tmp_score<5>
-    SLICE_X12Y42.CLK     Tah         (-Th)    -0.190   Inst_msa_hdl_Niveau7/tmp_score<6>
-                                                       Inst_msa_hdl_Niveau7/Mmux_etatpres[4]_X_23_o_wide_mux_72_OUT181
-                                                       Inst_msa_hdl_Niveau7/tmp_score_5
+    SLICE_X20Y34.DQ      Tcko                  0.200   Inst_msa_hdl_Niveau5/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau5/tmp_score_7
+    SLICE_X20Y34.D6      net (fanout=2)        0.022   Inst_msa_hdl_Niveau5/tmp_score<7>
+    SLICE_X20Y34.CLK     Tah         (-Th)    -0.190   Inst_msa_hdl_Niveau5/tmp_score<7>
+                                                       Inst_msa_hdl_Niveau5/Mmux_etatpres[4]_X_21_o_wide_mux_72_OUT161
+                                                       Inst_msa_hdl_Niveau5/tmp_score_7
     -------------------------------------------------  ---------------------------
-    Total                                      0.421ns (0.390ns logic, 0.031ns route)
-                                                       (92.6% logic, 7.4% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point Inst_msa_hdl_Niveau10/tmp_score_4 (SLICE_X12Y37.D6), 1 path
---------------------------------------------------------------------------------
-Slack (hold path):      0.429ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               Inst_msa_hdl_Niveau10/tmp_score_4 (FF)
-  Destination:          Inst_msa_hdl_Niveau10/tmp_score_4 (FF)
-  Requirement:          0.000ns
-  Data Path Delay:      0.429ns (Levels of Logic = 1)
-  Clock Path Skew:      0.000ns
-  Source Clock:         clk_dcm1 falling at 93.750ns
-  Destination Clock:    clk_dcm1 falling at 93.750ns
-  Clock Uncertainty:    0.000ns
-
-  Minimum Data Path at Fast Process Corner: Inst_msa_hdl_Niveau10/tmp_score_4 to Inst_msa_hdl_Niveau10/tmp_score_4
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X12Y37.DQ      Tcko                  0.200   Inst_msa_hdl_Niveau10/tmp_score<4>
-                                                       Inst_msa_hdl_Niveau10/tmp_score_4
-    SLICE_X12Y37.D6      net (fanout=6)        0.039   Inst_msa_hdl_Niveau10/tmp_score<4>
-    SLICE_X12Y37.CLK     Tah         (-Th)    -0.190   Inst_msa_hdl_Niveau10/tmp_score<4>
-                                                       Inst_msa_hdl_Niveau10/Mmux_etatpres[4]_X_26_o_wide_mux_72_OUT153
-                                                       Inst_msa_hdl_Niveau10/tmp_score_4
-    -------------------------------------------------  ---------------------------
-    Total                                      0.429ns (0.390ns logic, 0.039ns route)
-                                                       (90.9% logic, 9.1% route)
+    Total                                      0.412ns (0.390ns logic, 0.022ns route)
+                                                       (94.7% logic, 5.3% route)
 
 --------------------------------------------------------------------------------
 
@@ -1049,17 +1056,17 @@ Slack: 60.770ns (period - min period limit)
 Slack: 62.070ns (period - min period limit)
   Period: 62.500ns
   Min period limit: 0.430ns (2325.581MHz) (Tcp)
-  Physical resource: inst_diviseur_clk/cnt2hz<3>/CLK
-  Logical resource: inst_diviseur_clk/cnt2hz_0/CK
-  Location pin: SLICE_X20Y17.CLK
+  Physical resource: inst_diviseur_clk/cnt16hz<3>/CLK
+  Logical resource: inst_diviseur_clk/cnt16hz_0/CK
+  Location pin: SLICE_X0Y23.CLK
   Clock network: clk_dcm1
 --------------------------------------------------------------------------------
 Slack: 62.070ns (period - min period limit)
   Period: 62.500ns
   Min period limit: 0.430ns (2325.581MHz) (Tcp)
-  Physical resource: inst_diviseur_clk/cnt2hz<3>/CLK
-  Logical resource: inst_diviseur_clk/cnt2hz_1/CK
-  Location pin: SLICE_X20Y17.CLK
+  Physical resource: inst_diviseur_clk/cnt16hz<3>/CLK
+  Logical resource: inst_diviseur_clk/cnt16hz_1/CK
+  Location pin: SLICE_X0Y23.CLK
   Clock network: clk_dcm1
 --------------------------------------------------------------------------------
 
@@ -1071,9 +1078,9 @@ Derived Constraints for TS_clkin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_clkin                       |     10.000ns|      5.340ns|      4.904ns|            0|            0|            0|         5450|
-| TS_Inst_dcm1_clk0             |     10.000ns|      4.904ns|          N/A|            0|            0|          923|            0|
-| TS_Inst_dcm1_clkfx            |     62.500ns|     12.090ns|          N/A|            0|            0|         4527|            0|
+|TS_clkin                       |     10.000ns|      5.340ns|      4.432ns|            0|            0|            0|         4565|
+| TS_Inst_dcm1_clk0             |     10.000ns|      4.432ns|          N/A|            0|            0|          896|            0|
+| TS_Inst_dcm1_clkfx            |     62.500ns|     11.566ns|          N/A|            0|            0|         3669|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -1088,7 +1095,7 @@ Clock to Setup on destination clock clkin
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clkin          |    4.904|    2.622|    6.045|    5.501|
+clkin          |    4.495|    2.386|    5.783|    4.766|
 ---------------+---------+---------+---------+---------+
 
 
@@ -1097,23 +1104,23 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 5450 paths, 0 nets, and 2085 connections
+Constraints cover 4565 paths, 0 nets, and 1779 connections
 
 Design statistics:
-   Minimum period:  12.090ns{1}   (Maximum frequency:  82.713MHz)
+   Minimum period:  11.566ns{1}   (Maximum frequency:  86.460MHz)
 
 
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Sat Jan 12 11:52:15 2019 
+Analysis completed Sat Jan 12 15:06:48 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4577 MB
+Peak Memory Usage: 4576 MB
 
 
 

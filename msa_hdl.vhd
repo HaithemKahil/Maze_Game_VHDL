@@ -11,7 +11,8 @@ entity msa_hdl is
 					 b1 : in STD_LOGIC;
 					 gs : in STD_LOGIC;
 		  enable_del : out STD_LOGIC;
-				 score : out std_logic_vector(7 downto 0));
+				 score : out std_logic_vector(7 downto 0)
+				 );
 end msa_hdl;
 
 architecture Behavioral of msa_hdl is
@@ -20,8 +21,10 @@ type etat is (a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x);
 signal etatpres, etatsuiv : etat;
 signal tmp_score: std_logic_vector(7 downto 0):="00000000";
 signal not_clkin :STD_LOGIC:=not clkin;
+signal enable_game : std_logic :='1';
 begin
 --registre d'état
+
 
 
 xreg: process(rst,clkin)
@@ -35,8 +38,8 @@ xreg: process(rst,clkin)
 		--IFL
 xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 		begin
-			if(rising_edge(not_clkin)) then
-				if(rst = '1') then tmp_score <= "00000000";end if;
+			if(rst = '1') then tmp_score <= "00000000";end if;
+			if(rising_edge(not_clkin) and enable_game = '1') then
 				case etatpres is
 				-- iteration aller à droite 
 					when a =>
@@ -284,6 +287,7 @@ xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 						end if;
 					when x =>
 						etatsuiv <= x;
+						enable_game <= '0';
 					when others => etatsuiv <= a;tmp_score<="00000000";
 				end case;
 			end if;

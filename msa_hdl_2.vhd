@@ -11,7 +11,8 @@ entity msa_hdl_2 is
 					 b1 : in STD_LOGIC;
 					 gs : in STD_LOGIC;
 		  enable_del : out STD_LOGIC;
-				 score : out std_logic_vector(7 downto 0));
+				 score : out std_logic_vector(7 downto 0);
+				 enable_game:in std_logic);
 end msa_hdl_2;
 
 architecture Behavioral of msa_hdl_2 is
@@ -35,8 +36,8 @@ xreg: process(rst,clkin)
 		--IFL
 xifl: process(rst,not_clkin,etatpres, b1,b0,gs)
 		begin
-			if(rising_edge(not_clkin)) then
-				if(rst = '1') then tmp_score <= "00000000";end if;
+			if(rst = '1') then tmp_score <= "00000000";end if;
+			if(rising_edge(not_clkin)and enable_game = '1') then
 				case etatpres is
 				-- iteration aller à droite 
 					when a =>

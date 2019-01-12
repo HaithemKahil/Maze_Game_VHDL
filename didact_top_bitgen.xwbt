@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\didact_top.ncd
-OUTFILE=F:\ProjectsDirectory\Embedded_Systems\Detecteurquence\didact_top.bit
+INFILE=F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.ncd
+OUTFILE=F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL\didact_top.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=F:\ProjectsDirectory\Embedded_Systems\Detecteurquence
+WORKINGDIR=F:\ProjectsDirectory\Embedded_Systems\Maze_Game_VHDL
 LICENSE=WebPack
 USER_INFO=210821714_0_0_756
