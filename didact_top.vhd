@@ -271,23 +271,23 @@ begin
 		
 		
 		inst1_debounce: debounce_hdl port map(
-			sig_in => bouton1,
+			sig_in => (bouton1 or key_buffer(0)),
 			sig_out => debout(0),
 			clkin => clk2khz
 		);
 		inst2_debounce: debounce_hdl port map(
-			sig_in => bouton2,
+			sig_in => (bouton2 or key_buffer(1)),
 			sig_out => debout(1),
 			clkin => clk2khz
 		);
 		inst3_debounce: debounce_hdl port map(
-		sig_in => bouton3,
+		sig_in => (bouton3 or key_buffer(2)),
 		 sig_out => debout(2),
 		 clkin => clk2khz
 		);
 		
 		inst4_debounce: debounce_hdl port map(
-			sig_in => bouton4,
+			sig_in => (bouton4 or key_buffer(3)),
 			sig_out => debout(3),
 			clkin => clk2khz
 		);
