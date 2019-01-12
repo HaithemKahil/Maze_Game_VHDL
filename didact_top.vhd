@@ -234,7 +234,7 @@ signal R,G,C:std_logic;
 signal win : std_logic := '0';
 signal after_play : std_logic := '0' ;
 signal clk100khz :std_logic;
-
+signal key_buffer : std_logic_vector(3 downto 0) := "0000";
 begin	
 		process(total_score)
 			begin
